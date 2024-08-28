@@ -301,7 +301,7 @@ MonoBehaviour:
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 0
-  timeBetweenBattles: 10
+  timeBetweenBattles: 2
   deactivateAfterStarting: 0
   cannotFlee: 0
   shouldCompleteQuest: 0

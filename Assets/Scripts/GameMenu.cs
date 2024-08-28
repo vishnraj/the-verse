@@ -111,6 +111,10 @@ public class GameMenu : MonoBehaviour {
     }
 
     public void OpenMenu() {
+        if (GameManager.instance.battleActive) {
+            return; // only battle menu should be used when in battle
+        }
+
         menu.SetActive(true);
         UpdateMainStats();
         GameManager.instance.gameMenuOpen = true;
