@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1482313690372220961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2332171786414554663}
+  - component: {fileID: 2421150394240468934}
+  m_Layer: 0
+  m_Name: PlayerStat1 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2332171786414554663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482313690372220961}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.283841, y: 5.705886, z: -0.06786992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4388650036419403673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2421150394240468934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482313690372220961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3e97579ffbc4893928cf55dc4f8ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Bear
+  playerLevel: 1
+  maxLevel: 100
+  currentExp: 250
+  baseEXP: 1000
+  levelMultiplierExp: 0
+  minimumIncreaseValueExp: 0
+  expToNextLevel: []
+  currentHP: 100
+  maxHP: 100
+  levelMultiplierHP: 0
+  currentMP: 30
+  maxMP: 30
+  baseBonusMP: 0
+  levelMultiplierMP: 0
+  minimumIncreaseValueMP: 0
+  mpLvlBonus: []
+  strength: 15
+  defense: 12
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 1495421042, guid: b5b49ab24420a42d48cf59e48c67769f, type: 3}
+  testMode: 0
+--- !u!1 &6980184893960314711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4883010052263345740}
+  - component: {fileID: 8922358097475832480}
+  m_Layer: 0
+  m_Name: PlayerStat2 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4883010052263345740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6980184893960314711}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.283841, y: 5.705886, z: -0.06786992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4388650036419403673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8922358097475832480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6980184893960314711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3e97579ffbc4893928cf55dc4f8ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Mofus
+  playerLevel: 3
+  maxLevel: 100
+  currentExp: 543
+  baseEXP: 1000
+  levelMultiplierExp: 0
+  minimumIncreaseValueExp: 0
+  expToNextLevel: []
+  currentHP: 150
+  maxHP: 150
+  levelMultiplierHP: 0
+  currentMP: 25
+  maxMP: 25
+  baseBonusMP: 0
+  levelMultiplierMP: 0
+  minimumIncreaseValueMP: 0
+  mpLvlBonus: []
+  strength: 22
+  defense: 16
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+  testMode: 0
+--- !u!1 &7098209018317297276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7624728429075580939}
+  - component: {fileID: 4470103113244421010}
+  m_Layer: 0
+  m_Name: PlayerStat3 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7624728429075580939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098209018317297276}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.283841, y: 5.705886, z: -0.06786992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4388650036419403673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4470103113244421010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098209018317297276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3e97579ffbc4893928cf55dc4f8ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Jin
+  playerLevel: 3
+  maxLevel: 100
+  currentExp: 543
+  baseEXP: 1000
+  levelMultiplierExp: 0
+  minimumIncreaseValueExp: 0
+  expToNextLevel: []
+  currentHP: 150
+  maxHP: 150
+  levelMultiplierHP: 0
+  currentMP: 25
+  maxMP: 25
+  baseBonusMP: 0
+  levelMultiplierMP: 0
+  minimumIncreaseValueMP: 0
+  mpLvlBonus: []
+  strength: 22
+  defense: 16
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+  testMode: 0
+--- !u!1 &8386843075034137892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4388650036419403673}
+  - component: {fileID: -233059806240626849}
+  - component: {fileID: 7157048114180943196}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4388650036419403673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386843075034137892}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2332171786414554663}
+  - {fileID: 4883010052263345740}
+  - {fileID: 7624728429075580939}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-233059806240626849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386843075034137892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578898bef253421598658aac3acede5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStats:
+  - {fileID: 2421150394240468934}
+  - {fileID: 8922358097475832480}
+  - {fileID: 4470103113244421010}
+  gameMenuOpen: 0
+  dialogueActive: 0
+  fadingBetweenAreas: 0
+  shopActive: 0
+  itemsHeld:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  numberOfItems: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  referenceItems:
+  - {fileID: 270171360911003239, guid: c6bd19ec021dc4f03b7001cad7198679, type: 3}
+  - {fileID: 1930162411558877030, guid: be38275eb5f8c4997b4bdcb952d70ef4, type: 3}
+  - {fileID: 3603642611101290147, guid: 77ce7ecaef026482d8c950d4c1cb348f, type: 3}
+  - {fileID: 1628068302407649882, guid: 7518804099fc543b79b9a02ad8cf7b86, type: 3}
+  - {fileID: 3416131173792377002, guid: 1f0ff71f84be4424f83095891738fe71, type: 3}
+  - {fileID: 893829780284234861, guid: dbbdc45073a4b400bbac1bd2f936ef57, type: 3}
+  currentGold: 100
+--- !u!114 &7157048114180943196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386843075034137892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942480ef7888c4f8991b976152437f91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - fight the demon
+  - enter the cave
+  - quest test
+  - save the world
+  - do something
+  - load test
+  questMarkersComplete: 
