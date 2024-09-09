@@ -67,7 +67,7 @@ MonoBehaviour:
   armrPwr: 0
   equippedWpn: 
   equippedArmr: 
-  charImage: {fileID: 1495421042, guid: b5b49ab24420a42d48cf59e48c67769f, type: 3}
+  charImage: {fileID: 1239350863, guid: c27a7df9044534ae2b0336f8dbcfed83, type: 3}
   testMode: 0
 --- !u!1 &6980184893960314711
 GameObject:
@@ -263,6 +263,7 @@ MonoBehaviour:
   dialogueActive: 0
   fadingBetweenAreas: 0
   shopActive: 0
+  battleActive: 0
   itemsHeld:
   - 
   - 
