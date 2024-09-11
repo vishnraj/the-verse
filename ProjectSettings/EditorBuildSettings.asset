@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TheVerse/ChurchOutside.unity
     guid: a7a6c72abd7ab470d9c1b0375509ad6b
   - enabled: 1
+    path: Assets/Scenes/TheVerse/ChurchInside.unity
+    guid: 3cdf5887875454fd2a11c153bc9c81ef
+  - enabled: 1
     path: Assets/Scenes/TheVerse/GameOver.unity
     guid: 071747178911d4048ab9c56013e40b73
   m_configObjects: {}
