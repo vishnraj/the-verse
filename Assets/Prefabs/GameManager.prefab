@@ -47,7 +47,7 @@ MonoBehaviour:
   charName: Bear
   playerLevel: 1
   maxLevel: 100
-  currentExp: 250
+  currentExp: 0
   baseEXP: 1000
   levelMultiplierExp: 0
   minimumIncreaseValueExp: 0
@@ -114,9 +114,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charName: Mofus
-  playerLevel: 3
+  playerLevel: 1
   maxLevel: 100
-  currentExp: 543
+  currentExp: 0
   baseEXP: 1000
   levelMultiplierExp: 0
   minimumIncreaseValueExp: 0
@@ -183,9 +183,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charName: Jin
-  playerLevel: 3
+  playerLevel: 1
   maxLevel: 100
-  currentExp: 543
+  currentExp: 0
   baseEXP: 1000
   levelMultiplierExp: 0
   minimumIncreaseValueExp: 0
