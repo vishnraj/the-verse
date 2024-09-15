@@ -10140,9 +10140,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Bear
-  - Hey Mofus
-  - n-Mofi
-  - Ah, yes, hello Bear, I've been waiting for you to arrive
+  - Hey Mofus, is it time to go hunt the Growler?
+  - n-Mofus
+  - Aye Bear, I've been waiting for you to arrive, it is time
+  - n-Bear
+  - Alright, where is it?
+  - n-Mofus
+  - Aish, we can't just go find it that easily, first we must meet up with Kin-san
+  - n-Bear
+  - Kin-san? Don't think I've met this individual before
+  - n-Mofus
+  - Thou hast met Kin, he is a 60 year old fox spirit
+  - n-Bear
+  - 60 years old? Yeah I don't know who you're talking, but sure let's go
+  - n-Mofus
+  - Aye, let's head to Uncle Kin's and then you'll see...
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
