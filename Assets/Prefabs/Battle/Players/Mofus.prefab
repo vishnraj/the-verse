@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5, y: -1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 445987449
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300024, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+  m_Sprite: {fileID: 595003751, guid: 38a1cc9e82969451386c362d9ad83e37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,5 +112,6 @@ MonoBehaviour:
   armrPwr: 0
   hasDied: 0
   spriteRenderer: {fileID: 5834956013452681665}
-  deadSprite: {fileID: 21300046, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
-  aliveSprite: {fileID: 21300024, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+  deadSprite: {fileID: -1808039011, guid: 38a1cc9e82969451386c362d9ad83e37, type: 3}
+  aliveSprite: {fileID: 595003751, guid: 38a1cc9e82969451386c362d9ad83e37, type: 3}
+  fadeSpeed: 1
