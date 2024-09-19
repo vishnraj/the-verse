@@ -10417,14 +10417,6 @@ PrefabInstance:
       value: Bear
       objectReference: {fileID: 0}
     - target: {fileID: 1894936845616021232, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1894936845616021232, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1894936845616021232, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -10463,14 +10455,6 @@ PrefabInstance:
     - target: {fileID: 1894936845616021232, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3968798918241891322, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
-      propertyPath: m_Radius
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3968798918241891322, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
