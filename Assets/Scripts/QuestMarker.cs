@@ -18,10 +18,7 @@ public class QuestMarker : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (canMark && Input.GetButtonDown("Fire1")) {
-            canMark = false;
-            MarkQuest();
-        }
+        
     }
 
     public void MarkQuest() {
