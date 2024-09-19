@@ -326,11 +326,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942480ef7888c4f8991b976152437f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questMarkerNames:
-  - fight the demon
-  - enter the cave
-  - quest test
-  - save the world
-  - do something
-  - load test
+  questMarkerNames: []
   questMarkersComplete: 
