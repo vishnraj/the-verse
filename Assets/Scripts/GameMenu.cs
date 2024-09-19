@@ -111,7 +111,7 @@ public class GameMenu : MonoBehaviour {
     }
 
     public void OpenMenu() {
-        if (GameManager.instance.battleActive) {
+        if (GameManager.instance.battleActive || GameManager.instance.dialogueActive) {
             return; // only battle menu should be used when in battle
         }
 

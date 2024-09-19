@@ -10189,7 +10189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9268673ffba4140b8b5e6a9e6eee54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 752907675}
+  objectToActivate: {fileID: 0}
+  partyMemberIndexToActivate: 1
   questToCheck: Mofus Joins Party
   activeIfComplete: 1
 --- !u!1001 &693766037
@@ -10306,11 +10307,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42a8fea18b1cb4aa893ec370d2564400, type: 3}
---- !u!1 &752907675 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6980184893960314711, guid: 42a8fea18b1cb4aa893ec370d2564400, type: 3}
-  m_PrefabInstance: {fileID: 752907674}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &996902924
 PrefabInstance:
   m_ObjectHideFlags: 0

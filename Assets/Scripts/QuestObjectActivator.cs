@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class QuestObjectActivator : MonoBehaviour {
     public GameObject objectToActivate;
+
+    public int partyMemberIndexToActivate;
 
     public string questToCheck;
 
@@ -26,7 +29,11 @@ public class QuestObjectActivator : MonoBehaviour {
 
     public void CheckCompletion() {
         if (QuestManager.instance.CheckIfComplete(questToCheck)) {
-            objectToActivate.SetActive(activeIfComplete);
+            if (objectToActivate != null) {
+                objectToActivate.SetActive(activeIfComplete);
+            } else if (partyMemberIndexToActivate >= 0 && partyMemberIndexToActivate < GameManager.instance.playerStats.Length) {
+                GameManager.instance.playerStats[partyMemberIndexToActivate].gameObject.SetActive(activeIfComplete);
+            }
         }
     }
 }
