@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 1
   movesAvailable:
-  - Fire
+  - Plasma
   charName: Mofus
   currentHP: 0
   maxHP: 0
