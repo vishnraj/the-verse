@@ -1,0 +1,941 @@
+fileFormatVersion: 2
+guid: ffc871064d8574a3d929e468cd7c5df1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677
+        width: 137
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a932af9fc434063a282195fdd1ac13
+      internalID: -633037394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1016
+        width: 54
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7fea2d91f194061ac80ce3bc78357c
+      internalID: 1470642345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1014
+        width: 82
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8812bc6782187443293586603a4b08e6
+      internalID: 421404553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1016
+        width: 87
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478adf26609ea47c8af20fd051d61cca
+      internalID: -872567361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1008
+        width: 67
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cd5524e126046b2980f812bdd5a06b
+      internalID: 1851924058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1020
+        width: 100
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28f2d5c68dfb4c089e41bc75cd8bcc4
+      internalID: -1995186150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_6
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1019
+        width: 77
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f5c792fd39a4b029f2214926be214f
+      internalID: -1524132925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1020
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3648c32c4c14c40759186c6c6196b0ef
+      internalID: -1387322404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1016
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7efed05bcb7498286e932e0ef43ba0
+      internalID: 669380434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_9
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1020
+        width: 52
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9dcf0ee0877442d9bd9b68b820f65c
+      internalID: 1038878827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_10
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1020
+        width: 33
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17e550141bd747d5beef147389e1fcc
+      internalID: -1823303088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_11
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1020
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a3876995c5648a5b81299daf1a9290
+      internalID: 1145476625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_12
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1016
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7ade911d6154659826802b0bc1d0fd
+      internalID: 2066875632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_13
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 671
+        width: 233
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc728b37a8d944e6ac1256257aaf375
+      internalID: 616172327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_14
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1012
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d7a47a1eda343c681d263cf20d853d
+      internalID: 324694647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1003
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a8749ada3be4da3a0c016a8052f052
+      internalID: 1337776131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 996
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c1ee04374b4887a75a46bba595402
+      internalID: 175794282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_17
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1012
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ccd8d6633044b7bb7a6e931627058a
+      internalID: 1056112206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1011
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0697f64cf93fe411186e63e3980676a1
+      internalID: -1142001597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 138
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f911fcc969214313999138707a87290
+      internalID: -2046638846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 672
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4189a12f1c1941c9bf5e916e6c09a9e
+      internalID: -406100107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 671
+        width: 249
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f06c79d6623478f9e8dfd1eb29501a
+      internalID: -910291719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 671
+        width: 259
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9f55d6e0d744121972b0806bf7f09c
+      internalID: -2033665409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_23
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 670
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011d933cd7e544b6f9b952e2b4cf43a5
+      internalID: -684927083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_24
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 665
+        width: 108
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c37f7715918947c2abdedf36d5af36f
+      internalID: 1075626956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 320
+        width: 248
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822aef4feedee4d7a949f510ed4881a6
+      internalID: 75086202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 319
+        width: 243
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c02973095dd4f99bc6f7b99f0dff0f
+      internalID: 707202477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_27
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 230
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586aa1b52ac2a4763850185d96a7476a
+      internalID: -2129950755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_28
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 660
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5593025c54906452d96030a8f1c3a15b
+      internalID: 861066970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_29
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 662
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e95d9f1b9c84047bc9932ca0ebf4fd
+      internalID: -1999079991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_30
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 320
+        width: 107
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6afa6532615f46c5996e71ace236d7b
+      internalID: -1128280940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_31
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 360
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a43261c5c313436e905a7924a6c7a14
+      internalID: -469779411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 320
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f27017f0a454ba3b11d2bd77c3fc1d
+      internalID: -1887147555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49422a41215014c6096985e7768836a0
+      internalID: -175765551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_34
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 252
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211b0cc520b1e49d3bc5f0035c964ff2
+      internalID: -236650118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_35
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 272
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf23ae883bc3a4f2b8e9e9bd8f3754bb
+      internalID: -725683245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipmunk-sprites-0_36
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 0
+        width: 152
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b719274bfa0ec44b39f9c23f2c9653ec
+      internalID: 619996709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chipmunk-sprites-0_0: -633037394
+      chipmunk-sprites-0_1: 1470642345
+      chipmunk-sprites-0_10: -1823303088
+      chipmunk-sprites-0_11: 1145476625
+      chipmunk-sprites-0_12: 2066875632
+      chipmunk-sprites-0_13: 616172327
+      chipmunk-sprites-0_14: 324694647
+      chipmunk-sprites-0_15: 1337776131
+      chipmunk-sprites-0_16: 175794282
+      chipmunk-sprites-0_17: 1056112206
+      chipmunk-sprites-0_18: -1142001597
+      chipmunk-sprites-0_19: -2046638846
+      chipmunk-sprites-0_2: 421404553
+      chipmunk-sprites-0_20: -406100107
+      chipmunk-sprites-0_21: -910291719
+      chipmunk-sprites-0_22: -2033665409
+      chipmunk-sprites-0_23: -684927083
+      chipmunk-sprites-0_24: 1075626956
+      chipmunk-sprites-0_25: 75086202
+      chipmunk-sprites-0_26: 707202477
+      chipmunk-sprites-0_27: -2129950755
+      chipmunk-sprites-0_28: 861066970
+      chipmunk-sprites-0_29: -1999079991
+      chipmunk-sprites-0_3: -872567361
+      chipmunk-sprites-0_30: -1128280940
+      chipmunk-sprites-0_31: -469779411
+      chipmunk-sprites-0_32: -1887147555
+      chipmunk-sprites-0_33: -175765551
+      chipmunk-sprites-0_34: -236650118
+      chipmunk-sprites-0_35: -725683245
+      chipmunk-sprites-0_36: 619996709
+      chipmunk-sprites-0_4: 1851924058
+      chipmunk-sprites-0_5: -1995186150
+      chipmunk-sprites-0_6: -1524132925
+      chipmunk-sprites-0_7: -1387322404
+      chipmunk-sprites-0_8: 669380434
+      chipmunk-sprites-0_9: 1038878827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

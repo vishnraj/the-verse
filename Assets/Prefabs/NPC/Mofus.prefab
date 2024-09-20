@@ -203,11 +203,13 @@ MonoBehaviour:
   - n-Bear
   - Kin-san? Don't think I've met this individual before
   - n-Mofus
-  - Thou hast met Kin, he is a 60 year old fox spirit
+  - Thou hast met Kin, he is a 60 year old fox spirit.
   - n-Bear
   - 60 years old? Yeah I don't know who you're talking about, but sure let's go
   - n-Mofus
   - Aye, let's head to Uncle Kin's and then you'll see...
+  - Before we leave, please speak to Armorer Mathias at the concierge, if you haven't
+    already, so that we may be properly equipped.
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
