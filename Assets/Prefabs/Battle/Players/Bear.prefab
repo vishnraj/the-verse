@@ -100,7 +100,6 @@ MonoBehaviour:
   isPlayer: 1
   movesAvailable:
   - Fire
-  - Ice
   charName: Bear
   currentHP: 0
   maxHP: 0

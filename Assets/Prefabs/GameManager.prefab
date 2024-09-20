@@ -55,14 +55,14 @@ MonoBehaviour:
   currentHP: 100
   maxHP: 100
   levelMultiplierHP: 0
-  currentMP: 30
-  maxMP: 30
+  currentMP: 25
+  maxMP: 25
   baseBonusMP: 0
   levelMultiplierMP: 0
   minimumIncreaseValueMP: 0
   mpLvlBonus: []
-  strength: 15
-  defense: 12
+  strength: 21
+  defense: 16
   wpnPwr: 0
   armrPwr: 0
   equippedWpn: 
@@ -124,14 +124,14 @@ MonoBehaviour:
   currentHP: 150
   maxHP: 150
   levelMultiplierHP: 0
-  currentMP: 25
-  maxMP: 25
+  currentMP: 35
+  maxMP: 35
   baseBonusMP: 0
   levelMultiplierMP: 0
   minimumIncreaseValueMP: 0
   mpLvlBonus: []
-  strength: 22
-  defense: 16
+  strength: 16
+  defense: 23
   wpnPwr: 0
   armrPwr: 0
   equippedWpn: 
