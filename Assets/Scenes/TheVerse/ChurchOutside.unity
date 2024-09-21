@@ -252,6 +252,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3495959342332091049, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: transitionName
+      value: ChurchArea-0
+      objectReference: {fileID: 0}
     - target: {fileID: 4681082333529678824, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5
@@ -262,7 +266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4703624809144612830, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_Name
-      value: Area Exit
+      value: AreaExitEnterChurch
       objectReference: {fileID: 0}
     - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: areaToLoad
@@ -349,6 +353,219 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00caf64dcdbfc46d4a08f12cf1912c8f, type: 3}
+--- !u!1001 &812923546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5811696
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Size.y
+      value: 2.0436046
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Offset.x
+      value: -1.6171563
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.34032297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3495959342332091049, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: transitionName
+      value: ChurchRouteToKins-0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681082333529678824, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681082333529678824, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703624809144612830, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Name
+      value: AreaExitRouteToKins
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703624809144612830, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: areaToLoad
+      value: ChurchRouteToKins
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: theEntrance
+      value: 
+      objectReference: {fileID: 812923547}
+    - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: areaTransitionName
+      value: ChurchRouteToKins-0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+--- !u!114 &812923547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3495959342332091049, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+  m_PrefabInstance: {fileID: 812923546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcefb15f6761471ab91c693c012ad61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &812923548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4703624809144612830, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+  m_PrefabInstance: {fileID: 812923546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &832905878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832905881}
+  - component: {fileID: 832905880}
+  - component: {fileID: 832905879}
+  m_Layer: 0
+  m_Name: GrowlerHunterChurchSign
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &832905879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832905878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e72126c35405412caadbbdd356b03d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - The Church of Growler Hunters
+  isPerson: 0
+  shouldActivateQuest: 0
+  questToMark: 
+  markComplete: 0
+--- !u!61 &832905880
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832905878}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4730239, y: -0.12447989}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9460478, y: 2.3443844}
+  m_EdgeRadius: 0
+--- !u!4 &832905881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832905878}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 5.58, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1073525528
 GameObject:
   m_ObjectHideFlags: 0
@@ -4398,6 +4615,103 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
+--- !u!1 &1386242782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1386242784}
+  - component: {fileID: 1386242783}
+  - component: {fileID: 1386242785}
+  m_Layer: 0
+  m_Name: SignToKins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1386242783
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386242782}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4730239, y: -0.12447989}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9460478, y: 2.3443844}
+  m_EdgeRadius: 0
+--- !u!4 &1386242784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386242782}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.46, y: 1.65, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1386242785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386242782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e72126c35405412caadbbdd356b03d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - To Kin's House
+  - (See Mofus in The Church of Growler Hunters first)
+  isPerson: 0
+  shouldActivateQuest: 0
+  questToMark: 
+  markComplete: 0
 --- !u!1 &1524288177
 GameObject:
   m_ObjectHideFlags: 0
@@ -5128,6 +5442,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -9, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -7, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -5593,6 +5917,16 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 6
       m_TileSpriteIndex: 703
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: 5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12498,8 +12832,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: ba2ee84ec511f4276bfabebf898090a8, type: 2}
   - m_RefCount: 72
     m_Data: {fileID: 11400000, guid: b381e3b9bd16e4675b772d86173bdc99, type: 2}
   - m_RefCount: 1
@@ -13929,8 +14263,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 2
+    m_Data: {fileID: 21300224, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 72
     m_Data: {fileID: 1650196973, guid: dff40219a36644ea6b1ad28a8bfa6679, type: 3}
   - m_RefCount: 2
@@ -15352,7 +15686,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -1864511758, guid: dff40219a36644ea6b1ad28a8bfa6679, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 795
+  - m_RefCount: 797
     m_Data:
       e00: 1
       e01: 0
@@ -15371,7 +15705,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 795
+  - m_RefCount: 797
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -15503,6 +15837,54 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &2087839302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2087839304}
+  - component: {fileID: 2087839303}
+  m_Layer: 0
+  m_Name: ActivateAreaExitRouteToKins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2087839303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087839302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9268673ffba4140b8b5e6a9e6eee54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 812923548}
+  partyMemberIndexToActivate: 0
+  questToCheck: Mofus Joins Party
+  activeIfComplete: 1
+--- !u!4 &2087839304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087839302}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9447997, y: -1.8191487, z: -9.926524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -15512,3 +15894,7 @@ SceneRoots:
   - {fileID: 1524288179}
   - {fileID: 1133863585}
   - {fileID: 262377768}
+  - {fileID: 812923546}
+  - {fileID: 2087839304}
+  - {fileID: 1386242784}
+  - {fileID: 832905881}

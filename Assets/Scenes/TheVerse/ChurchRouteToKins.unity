@@ -198,27 +198,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_Size.x
-      value: 3.7633433
+      value: 0.52361774
       objectReference: {fileID: 0}
     - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_Size.y
-      value: 0.95722866
+      value: 2.0436044
       objectReference: {fileID: 0}
     - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_Offset.x
-      value: -0.026069403
+      value: 1.3351321
       objectReference: {fileID: 0}
     - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_Offset.y
-      value: 0.52138567
+      value: 1.0645735
       objectReference: {fileID: 0}
     - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.02
+      value: 9.35
       objectReference: {fileID: 0}
     - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.61
+      value: -0.99
       objectReference: {fileID: 0}
     - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -252,13 +252,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3495959342332091049, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: transitionName
+      value: ChurchRouteToKins-0
+      objectReference: {fileID: 0}
     - target: {fileID: 4681082333529678824, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: -1.28
       objectReference: {fileID: 0}
     - target: {fileID: 4681082333529678824, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 4703624809144612830, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: m_Name
@@ -266,7 +270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: areaToLoad
-      value: ChurchInside
+      value: ChurchOutside
       objectReference: {fileID: 0}
     - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: theEntrance
@@ -274,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 262377769}
     - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: areaTransitionName
-      value: ChurchArea-0
+      value: ChurchRouteToKins-0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -389,12 +393,12 @@ MonoBehaviour:
     - Eyeball
     rewardXP: 200
     rewardItems:
-    - Health
+    - Health Potion
   activateOnEnter: 1
   activateOnStay: 0
   activateOnExit: 0
   timeBetweenBattles: 10
-  deactivateAfterStarting: 0
+  deactivateAfterStarting: 1
   cannotFlee: 0
   shouldCompleteQuest: 0
   QuestToComplete: 
