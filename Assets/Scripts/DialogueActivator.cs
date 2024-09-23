@@ -8,7 +8,6 @@ public class DialogueActivator : MonoBehaviour {
 
     private bool canActivate;
 
-    public bool shouldActivateQuest;
     public string questToMark;
     public bool markComplete;
 

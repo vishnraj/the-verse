@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3157520255857158255}
   - component: {fileID: 5848522488166918496}
   - component: {fileID: 9041301538868501512}
-  - component: {fileID: 4888859471814348667}
   - component: {fileID: 4197353263067506334}
   m_Layer: 0
   m_Name: Mofus
@@ -211,25 +210,8 @@ MonoBehaviour:
   - Before we leave, please speak to Armorer Mathias at the concierge, if you haven't
     already, so that we may be properly equipped.
   isPerson: 1
-  shouldActivateQuest: 0
-  questToMark: 
-  markComplete: 0
---- !u!114 &4888859471814348667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3596021707271975390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87c8d631a9b3749c2ad2027663f5355a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   questToMark: Mofus Joins Party
   markComplete: 1
-  markOnEnter: 0
-  deactivateOnMarking: 0
 --- !u!114 &4197353263067506334
 MonoBehaviour:
   m_ObjectHideFlags: 0
