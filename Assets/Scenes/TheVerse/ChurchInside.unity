@@ -10846,6 +10846,210 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: As apostles of the Church of Growler hunters, it's our duty to defeat
+        the Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[3]
+      value: I'm not really part of the church though
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[4]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[5]
+      value: Aye, but you know what must be done...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].questName
+      value: Mofus Joins Party
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].questName
+      value: Defeat enemies enroute to Kin's
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.size
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[0]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
+      value: Hey Mofus, is it time to go hunt the Growler?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[2]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[3]
+      value: Aye Bear, I've been waiting for you to arrive, it is time
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[4]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[5]
+      value: Alright, where is it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[6]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[7]
+      value: Aish, we can't just go find it that easily, first we must meet up with
+        Kin-san
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[8]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[9]
+      value: Kin-san? Don't think I've met this individual before
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[1]
+      value: Let's equip ourselves and head out to meet Kin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[2]
+      value: Please speak to Armorer Mathias at the concierge, as the journey is
+        fraught with peril and we best be prepared...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[3]
+      value: Aye Bear, I've been waiting for you to arrive, it is time
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[4]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[5]
+      value: Alright, where is it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[6]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[7]
+      value: Aish, we can't just go find it that easily, first we must meet up with
+        Kin-san
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[8]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[9]
+      value: Kin-san? Don't think I've met this individual before
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[10]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[11]
+      value: Thou hast met Kin, he is a 60 year old fox spirit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[12]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[13]
+      value: 60 years old? Yeah I don't know who you're talking about, but sure let's
+        go
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[14]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[15]
+      value: Aye, let's head to Uncle Kin's and then you'll see...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[16]
+      value: Before we leave, please speak to Armorer Mathias at the concierge, if
+        you haven't already, so that we may be properly equipped.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[17]
+      value: n-Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[18]
+      value: Mofus has joined the party...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[10]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[11]
+      value: Thou hast met Kin, he is a 60 year old fox spirit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[12]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[13]
+      value: 60 years old? Yeah I don't know who you're talking about, but sure let's
+        go
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[14]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[15]
+      value: Aye, let's head to Uncle Kin's and then you'll see...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[16]
+      value: Before we leave, please speak to Armorer Mathias at the concierge, if
+        you haven't already, so that we may be properly equipped.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[17]
+      value: Mofus has joined the party...
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

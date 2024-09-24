@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,9 @@ public class DialogueActivator : MonoBehaviour {
     public string questToMark;
     public bool markComplete;
 
+    [SerializeField]
+    public List<QuestDialogue> questDialogues;
+
     // Start is called before the first frame update
     void Start() {
 
@@ -23,7 +27,15 @@ public class DialogueActivator : MonoBehaviour {
         }
 
         if (canActivate && Input.GetButtonDown("Fire1") && !DialogueManager.instance.dialogueBox.activeInHierarchy) {
-            DialogueManager.instance.ShowDialogue(lines, isPerson);
+            string[] dialogueLines = lines; // lines to use as default
+            foreach (QuestDialogue quest in questDialogues) {
+                // if a quest is marked complete, proceed to the next dialogue for a not complete quest
+                if (!QuestManager.instance.CheckIfComplete(quest.questName)) {
+                    dialogueLines = quest.lines;
+                    break; // always select the first available quest dialogue, for now we're only completing these in order
+                }
+            }
+            DialogueManager.instance.ShowDialogue(dialogueLines, isPerson);
             DialogueManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);
         }
     }
