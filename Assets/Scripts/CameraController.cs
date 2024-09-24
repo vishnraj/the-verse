@@ -15,6 +15,8 @@ public class CameraController : MonoBehaviour {
     public int musicToPlay;
     private bool musicStarted;
 
+    public Sprite battleBackground;
+
     // Start is called before the first frame update
     void Start() {
         target = PlayerController.instance.transform;

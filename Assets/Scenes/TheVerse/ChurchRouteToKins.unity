@@ -135,10 +135,6 @@ PrefabInstance:
       propertyPath: tileMap
       value: 
       objectReference: {fileID: 1685099601}
-    - target: {fileID: 1027219655579015043, guid: a35482927ae59422996a5cab786aa3e8, type: 3}
-      propertyPath: musicToPlay
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 1046126890607667979, guid: a35482927ae59422996a5cab786aa3e8, type: 3}
       propertyPath: m_Name
       value: Custom Camera

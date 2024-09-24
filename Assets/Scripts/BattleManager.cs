@@ -223,6 +223,7 @@ public class BattleManager : MonoBehaviour {
         GameManager.instance.battleActive = true;
         transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, transform.position.z);
         battleScene.SetActive(true);
+        battleScene.GetComponentInChildren<SpriteRenderer>().sprite = Camera.main.GetComponent<CameraController>().battleBackground;
         AudioManager.instance.PlayBGM(battleThemeIndex);
     }
 

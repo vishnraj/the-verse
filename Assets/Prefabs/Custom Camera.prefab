@@ -106,3 +106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  tileMap: {fileID: 0}
+  musicToPlay: 8
+  battleBackground: {fileID: 21300000, guid: 4c38a2b9041c88748add8abf7c31433c, type: 3}
