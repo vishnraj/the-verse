@@ -328,4 +328,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questMarkerNames:
   - Mofus Joins Party
+  - Defeat enemies enroute to Kin's
+  - Understand Growler
   questMarkersComplete: 

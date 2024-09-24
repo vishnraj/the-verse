@@ -396,8 +396,8 @@ MonoBehaviour:
   timeBetweenBattles: 10
   deactivateAfterStarting: 1
   cannotFlee: 0
-  shouldCompleteQuest: 0
-  QuestToComplete: 
+  shouldCompleteQuest: 1
+  QuestToComplete: Defeat enemies enroute to Kin's
 --- !u!1001 &693766037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2133,6 +2133,54 @@ Transform:
   m_Children:
   - {fileID: 1685099599}
   - {fileID: 830850275}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1611620940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611620942}
+  - component: {fileID: 1611620941}
+  m_Layer: 0
+  m_Name: MofusActivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1611620941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611620940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9268673ffba4140b8b5e6a9e6eee54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 1854733973}
+  partyMemberIndexToActivate: 0
+  questToCheck: Defeat enemies enroute to Kin's
+  activeIfComplete: 1
+--- !u!4 &1611620942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611620940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1685099598
@@ -5363,6 +5411,172 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1854733972
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3596021707271975390, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Name
+      value: Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3596021707271975390, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197353263067506334, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197353263067506334, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questToCheck
+      value: Understand Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197353263067506334, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: activeIfComplete
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197353263067506334, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: partyMemberIndexToActivate
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594110157403955792, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1281953062, guid: 38a1cc9e82969451386c362d9ad83e37, type: 3}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questToMark
+      value: Understand Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: markComplete
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Good work, those enemies were agents of the Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[3]
+      value: I thought those were just inhabitants of the forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[4]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[5]
+      value: Nay, all that are unholy and thus uncouth are agents of the Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[6]
+      value: Let's proceed to Kin's now, once there I can safely impart more info
+        on the Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[7]
+      value: It's not safe to do so out in the open like this...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[8]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[9]
+      value: Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[10]
+      value: Thou hast met Kin, he is a 60 year old fox spirit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[11]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[12]
+      value: 60 years old? Yeah I don't know who you're talking about, but sure let's
+        go
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[13]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[14]
+      value: Aye, let's head to Uncle Kin's and then you'll see...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[15]
+      value: Before we leave, please speak to Armorer Mathias at the concierge, if
+        you haven't already, so that we may be properly equipped.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4197353263067506334, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+--- !u!1 &1854733973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3596021707271975390, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+  m_PrefabInstance: {fileID: 1854733972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -5373,3 +5587,5 @@ SceneRoots:
   - {fileID: 1133863585}
   - {fileID: 262377768}
   - {fileID: 512781847}
+  - {fileID: 1854733972}
+  - {fileID: 1611620942}
