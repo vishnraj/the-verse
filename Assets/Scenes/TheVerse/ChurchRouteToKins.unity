@@ -5497,7 +5497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.size
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[0]
@@ -5505,7 +5505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[1]
-      value: Good work, those enemies were agents of the Growler
+      value: Remember to be careful
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[2]
@@ -5513,7 +5513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[3]
-      value: I thought those were just inhabitants of the forest
+      value: Regarding what?
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[4]
@@ -5521,7 +5521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[5]
-      value: Nay, all that are unholy and thus uncouth are agents of the Growler
+      value: Just be careful
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[6]
@@ -5565,6 +5565,76 @@ PrefabInstance:
       propertyPath: lines.Array.data[15]
       value: Before we leave, please speak to Armorer Mathias at the concierge, if
         you haven't already, so that we may be properly equipped.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].questName
+      value: Understand Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].questName
+      value: Meet Kin
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
+      value: Good work, those enemies were agents of the Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[3]
+      value: I thought those were just inhabitants of the forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[4]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[5]
+      value: Nay, all that are unholy and thus uncouth are agents of the Growler.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[6]
+      value: Let's proceed to Kin's now, once there I can safely impart more info
+        on the Growler
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[7]
+      value: It's not safe to do so out in the open like this...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[8]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[9]
+      value: Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[1]
+      value: Let's make haste, Uncle Kin is waiting for us and he'll be upset if
+        we're late.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4197353263067506334, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
