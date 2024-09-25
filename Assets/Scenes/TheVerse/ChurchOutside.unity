@@ -503,9 +503,9 @@ MonoBehaviour:
   lines:
   - The Church of Growler Hunters
   isPerson: 0
-  shouldActivateQuest: 0
   questToMark: 
   markComplete: 0
+  questDialogues: []
 --- !u!61 &832905880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4707,11 +4707,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - To Kin's House
-  - (See Mofus in The Church of Growler Hunters first)
   isPerson: 0
-  shouldActivateQuest: 0
   questToMark: 
   markComplete: 0
+  questDialogues:
+  - questName: Mofus Joins Party
+    lines:
+    - To Kin's House
+    - (See Mofus in The Church of Growler Hunters first)
+    - '- A1gKn'
 --- !u!1 &1524288177
 GameObject:
   m_ObjectHideFlags: 0

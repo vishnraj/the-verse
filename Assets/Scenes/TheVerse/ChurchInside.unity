@@ -10889,7 +10889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size
-      value: 19
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.size
@@ -11010,11 +11010,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[17]
-      value: n-Narrator
+      value: n-A1gKn
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[18]
-      value: Mofus has joined the party...
+      value: (A voice from somewhere) Mofus has joined the party...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[19]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[20]
+      value: What was that?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[21]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[22]
+      value: What was what?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[23]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[24]
+      value: Nevermind
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[25]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[26]
+      value: ...Let's go see Kin.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[10]
