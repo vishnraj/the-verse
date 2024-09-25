@@ -10856,7 +10856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[1]
-      value: As apostles of the Church of Growler hunters, it's our duty to defeat
+      value: As apostles of the Church of Growler Hunters, it's our duty to defeat
         the Growler
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
