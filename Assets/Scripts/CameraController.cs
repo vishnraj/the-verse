@@ -24,10 +24,13 @@ public class CameraController : MonoBehaviour {
         halfHeight = Camera.main.orthographicSize;
         halfWidth = halfHeight * Camera.main.aspect;
 
-        bottomLeftLimit = Vector3.Scale(tileMap.localBounds.min, tileMap.transform.parent.localScale) + new Vector3(halfWidth, halfHeight, 0f);
-        topRightLimit = Vector3.Scale(tileMap.localBounds.max, tileMap.transform.parent.localScale) + new Vector3(-halfWidth, -halfHeight, -0f);
+        Vector3 tileMapBoundMin = Vector3.Scale(tileMap.localBounds.min, tileMap.transform.parent.localScale);
+        Vector3 tileMapBoundMax = Vector3.Scale(tileMap.localBounds.max, tileMap.transform.parent.localScale);
 
-        PlayerController.instance.SetBounds(tileMap.localBounds.min, tileMap.localBounds.max);
+        bottomLeftLimit = tileMapBoundMin + new Vector3(halfWidth, halfHeight, 0f);
+        topRightLimit = tileMapBoundMax + new Vector3(-halfWidth, -halfHeight, -0f);
+
+        PlayerController.instance.SetBounds(tileMapBoundMin, tileMapBoundMax);
     }
 
     // Update is called once per frame
