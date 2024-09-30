@@ -24,8 +24,8 @@ public class CameraController : MonoBehaviour {
         halfHeight = Camera.main.orthographicSize;
         halfWidth = halfHeight * Camera.main.aspect;
 
-        bottomLeftLimit = tileMap.localBounds.min + new Vector3(halfWidth, halfHeight, 0f);
-        topRightLimit = tileMap.localBounds.max + new Vector3(-halfWidth, -halfHeight, -0f);
+        bottomLeftLimit = Vector3.Scale(tileMap.localBounds.min, tileMap.transform.parent.localScale) + new Vector3(halfWidth, halfHeight, 0f);
+        topRightLimit = Vector3.Scale(tileMap.localBounds.max, tileMap.transform.parent.localScale) + new Vector3(-halfWidth, -halfHeight, -0f);
 
         PlayerController.instance.SetBounds(tileMap.localBounds.min, tileMap.localBounds.max);
     }
