@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TheVerse/KinsTown.unity
     guid: 10f7ce2216b53431b9b977b03f8a4325
   - enabled: 1
+    path: Assets/Scenes/TheVerse/KinsHouse.unity
+    guid: 3b0f16031cb04478da5fd833c74b3f28
+  - enabled: 1
     path: Assets/Scenes/TheVerse/GameOver.unity
     guid: 071747178911d4048ab9c56013e40b73
   - enabled: 1
