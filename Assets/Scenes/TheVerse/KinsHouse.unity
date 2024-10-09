@@ -33458,11 +33458,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894936845616021232, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -2.47
       objectReference: {fileID: 0}
     - target: {fileID: 1894936845616021232, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -5.06
       objectReference: {fileID: 0}
     - target: {fileID: 1894936845616021232, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48151,6 +48151,108 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1001 &2115654145603572822
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 327019864440183764, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Size.x
+      value: 3.2709906
+      objectReference: {fileID: 0}
+    - target: {fileID: 327019864440183764, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Size.y
+      value: 4.3313675
+      objectReference: {fileID: 0}
+    - target: {fileID: 327019864440183764, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.09941018
+      objectReference: {fileID: 0}
+    - target: {fileID: 327019864440183764, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.16568375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626796107684374642, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Name
+      value: Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: We gotta go soon, otherwise Moses won't allow us to get in!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[5]
+      value: Oh right, yeah that was what we were going to do - hang on though, Mofus
+        this is just Jin, why do you keep saying Kin?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[14]
+      value: Besides, it's the same thing, the name... grumble...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[15]
+      value: Sigh, this is dumb - we need to go now!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dca60725301d74f2988db61f26cedca3, type: 3}
 --- !u!1001 &6067140848883996352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48161,19 +48263,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3157520255857158255, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_Size.x
-      value: 5.061614
+      value: 4.663972
       objectReference: {fileID: 0}
     - target: {fileID: 3157520255857158255, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_Size.y
-      value: 5.0585656
+      value: 3.998189
       objectReference: {fileID: 0}
     - target: {fileID: 3157520255857158255, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_Offset.x
-      value: 0.025198579
+      value: 0.02519846
       objectReference: {fileID: 0}
     - target: {fileID: 3157520255857158255, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_Offset.y
-      value: -0.4921043
+      value: -1.0222926
       objectReference: {fileID: 0}
     - target: {fileID: 3596021707271975390, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_Name
@@ -48193,11 +48295,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.44
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.06
+      value: -4.98
       objectReference: {fileID: 0}
     - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48257,7 +48359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[2]
-      value: n-Bear
+      value: Let's head out.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[3]
@@ -48285,7 +48387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.size
@@ -48297,32 +48399,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
-      value: Hmm, this is odd, where is Kin?
+      value: Quickly, we must speak to Kin.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[2]
-      value: I wonder if we're too late...
-      objectReference: {fileID: 0}
-    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
-      propertyPath: questDialogues.Array.data[0].lines.Array.data[3]
-      value: We need to look for clues.
-      objectReference: {fileID: 0}
-    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
-      propertyPath: questDialogues.Array.data[0].lines.Array.data[4]
       value: n-Bear
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
-      propertyPath: questDialogues.Array.data[0].lines.Array.data[5]
-      value: Alright, where is it?
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[3]
+      value: Mofus, this is just Jin, why do you keep saying Kin
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
-      propertyPath: questDialogues.Array.data[0].lines.Array.data[6]
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[4]
       value: n-Mofus
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[5]
+      value: Aish, I was trying to protect his identity, the Growler sees all.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[6]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[7]
-      value: Aish, we can't just go find it that easily, first we must meet up with
-        Kin-san
+      value: Sigh...
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[8]
@@ -48493,3 +48594,4 @@ SceneRoots:
   - {fileID: 1133863585}
   - {fileID: 6067140848883996352}
   - {fileID: 1236505362}
+  - {fileID: 2115654145603572822}
