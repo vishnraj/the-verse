@@ -17,6 +17,9 @@ public class DialogueManager : MonoBehaviour {
     private bool markQuestComplete;
     private bool shouldMarkQuest;
 
+    public float delayDuration = 1f; // Time in seconds
+    private bool isDialogueEnding = false; // Prevent retriggering during delay
+
     // Start is called before the first frame update
     void Start() {
         instance = this;
@@ -24,14 +27,12 @@ public class DialogueManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (dialogueBox.activeInHierarchy) {
+        if (dialogueBox.activeInHierarchy && !isDialogueEnding) {
             if (Input.GetButtonUp("Fire1") || Input.GetKeyUp(KeyCode.Space)) {
                 if (!justStarted) {
                     ++currentLine;
 
                     if (currentLine >= dialogueLines.Length) {
-                        DisableDialogue();
-
                         if (shouldMarkQuest) {
                             shouldMarkQuest = false;
                             if (markQuestComplete) {
@@ -40,6 +41,8 @@ public class DialogueManager : MonoBehaviour {
                                 QuestManager.instance.MarkQuestIncomplete(questToMark);
                             }
                         }
+
+                        StartCoroutine(EndDialogueWithDelay());
                     } else {
                         CheckIfName();
                         dialogueText.text = dialogueLines[currentLine];
@@ -83,5 +86,12 @@ public class DialogueManager : MonoBehaviour {
         markQuestComplete = markComplete;
 
         shouldMarkQuest = true;
+    }
+
+    private IEnumerator EndDialogueWithDelay() {
+        isDialogueEnding = true; // Prevent further input
+        yield return new WaitForSeconds(delayDuration); // Wait for the delay
+        DisableDialogue();
+        isDialogueEnding = false; // Re-enable input after delay
     }
 }
