@@ -14,10 +14,13 @@ public class ShopKeeper : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (canOpen && (Input.GetButtonDown("Fire1") || Input.GetKeyUp(KeyCode.Space)) && PlayerController.instance.canMove && !Shop.instance.shopMenu.activeInHierarchy) {
-            Shop.instance.itemsForSale = ItemsForSale;
-
-            Shop.instance.OpenShop();
+        if (canOpen && (Input.GetButtonDown("Fire1") || Input.GetKeyUp(KeyCode.Space))) {
+            if (!Shop.instance.shopMenu.activeInHierarchy && PlayerController.instance.canMove) {
+                Shop.instance.itemsForSale = ItemsForSale;
+                Shop.instance.OpenShop();
+            } else {
+                Shop.instance.CloseShop();
+             }
         }
     }
 
