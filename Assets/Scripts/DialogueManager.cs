@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (dialogueBox.activeInHierarchy) {
-            if (Input.GetButtonUp("Fire1")) {
+            if (Input.GetButtonUp("Fire1") || Input.GetKeyUp(KeyCode.Space)) {
                 if (!justStarted) {
                     ++currentLine;
 
