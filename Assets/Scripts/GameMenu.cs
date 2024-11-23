@@ -64,7 +64,7 @@ public class GameMenu : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetButtonDown("Fire2")) {
+        if (Input.GetButtonDown("Fire2") || Input.GetKeyUp(KeyCode.M)) {
             if (menu.activeInHierarchy) {
                 CloseMenu();
             } else {
