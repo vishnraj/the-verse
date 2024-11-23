@@ -12,7 +12,7 @@ public class PickupItem : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (canPickup && Input.GetButtonDown("Fire1") && PlayerController.instance.canMove) {
+        if (canPickup && (Input.GetButtonDown("Fire1") || Input.GetKeyUp(KeyCode.Space)) && PlayerController.instance.canMove) {
             GameManager.instance.SortItems();
             GameManager.instance.AddItem(GetComponent<Item>().itemName);
             Destroy(gameObject);
