@@ -18,7 +18,7 @@ public class ShopKeeper : MonoBehaviour {
             if (!Shop.instance.shopMenu.activeInHierarchy && PlayerController.instance.canMove) {
                 Shop.instance.itemsForSale = ItemsForSale;
                 Shop.instance.OpenShop();
-            } else {
+            } else if (Shop.instance.shopMenu.activeInHierarchy && Input.GetKeyUp(KeyCode.Space)) {
                 Shop.instance.CloseShop();
              }
         }
