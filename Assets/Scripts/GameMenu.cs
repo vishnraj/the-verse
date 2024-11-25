@@ -33,6 +33,8 @@ public class GameMenu : MonoBehaviour {
     public Text statusArmrPwr;
     public Text statusExp;
 
+    private int currentStatChar = -1;
+
     public Image statusImage;
 
     public ItemButton[] itemButtons;
@@ -104,6 +106,10 @@ public class GameMenu : MonoBehaviour {
                 windows[i].SetActive(!windows[i].activeInHierarchy);
             } else {
                 windows[i].SetActive(false);
+
+                if (windows[i].name == "Status Window") {
+                    currentStatChar = -1;
+                }
             }
         }
 
@@ -129,6 +135,8 @@ public class GameMenu : MonoBehaviour {
         GameManager.instance.gameMenuOpen = false;
 
         itemCharChoiceMenu.SetActive(false);
+
+        currentStatChar = -1;
     }
 
     public void OpenStatus() {
@@ -178,6 +186,8 @@ public class GameMenu : MonoBehaviour {
         statusExp.text = expToNextLevel.ToString();
 
         statusImage.sprite = playerStat.charImage;
+
+        currentStatChar = selected;
     }
 
     public void ShowItems() {
@@ -246,5 +256,61 @@ public class GameMenu : MonoBehaviour {
 
     public void PlayButtonSound() {
         AudioManager.instance.PlaySFX(4);
+    }
+
+    public void UnequipWeapon() {
+        if (currentStatChar == -1) {
+            return;
+        }
+
+        CharStats selectedChar = GameManager.instance.playerStats[currentStatChar];
+        if (selectedChar.equippedWpn == "") {
+            return;
+        }
+
+        Item wpnDetails = GameManager.instance.GetItemDetails(selectedChar.equippedWpn);
+        if (wpnDetails == null) {
+            Debug.LogError("No item found for " + selectedChar.equippedWpn);
+            return;
+        }
+
+        selectedChar.equippedWpn = "";
+        if (wpnDetails.isWeapon) {
+            selectedChar.wpnPwr -= wpnDetails.weaponStrength;
+        } else {
+            Debug.LogError("Item is not weapon: " + selectedChar.equippedWpn);
+            return; 
+        }
+
+        GameManager.instance.AddItem(wpnDetails.itemName);
+        StatusChar(currentStatChar);
+    }
+
+    public void UnequipArmor() {
+        if (currentStatChar == -1) {
+            return;
+        }
+
+        CharStats selectedChar = GameManager.instance.playerStats[currentStatChar];
+        if (selectedChar.equippedArmr == "") {
+            return;
+        }
+
+        Item armorDetails = GameManager.instance.GetItemDetails(selectedChar.equippedArmr);
+        if (armorDetails == null) {
+            Debug.LogError("No item found for " + selectedChar.equippedArmr);
+            return;
+        }
+
+        selectedChar.equippedArmr = "";
+        if (armorDetails.isArmor) {
+            selectedChar.armrPwr -= armorDetails.armorStrength;
+        } else {
+            Debug.LogError("Item is not armor: " + selectedChar.equippedArmr);
+            return; 
+        }
+
+        GameManager.instance.AddItem(armorDetails.itemName);
+        StatusChar(currentStatChar);
     }
 }
