@@ -478,6 +478,10 @@ public class BattleManager : MonoBehaviour {
         }
     }
 
+    public void CloseBattleItems() {
+        battleItemsMenu.SetActive(false);
+    }
+
     public void SelectItem(Item newItem) {
        activeItem = newItem;
 
