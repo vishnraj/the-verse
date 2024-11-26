@@ -30,18 +30,5 @@ public class BattleMagic : MonoBehaviour {
 
         BattleManager.instance.magicMenu.SetActive(false);
         BattleManager.instance.OpenTargetMenu(spellName);
-
-        BattleChar currentBattleChar = BattleManager.instance.activeBattlers[BattleManager.instance.currentTurn];
-        currentBattleChar.currentMP -= spellCost;
-
-        if (currentBattleChar.currentMP < 0) {
-           currentBattleChar.currentMP = 0;
-        }
-        for (int i = 0; i < GameManager.instance.playerStats.Length; ++i) {
-            if (currentBattleChar.charName == GameManager.instance.playerStats[i].charName) {
-                GameManager.instance.playerStats[i].currentMP = currentBattleChar.currentMP;
-                break;
-            }
-        }
     }
 }

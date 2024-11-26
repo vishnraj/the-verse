@@ -355,11 +355,27 @@ public class BattleManager : MonoBehaviour {
     }
 
     public void PlayerAttack(string moveName, int selectedTarget) {
+        BattleChar currentBattleChar = activeBattlers[currentTurn];
+
         int movePower = 0;
+        int moveMP = 0;
         for (int i = 0; i < movesList.Length; ++i) {
             if (movesList[i].moveName == moveName) {
                 Instantiate(movesList[i].effect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
                 movePower = movesList[i].movePower;
+                moveMP = movesList[i].moveCost;
+            }
+        }
+
+        currentBattleChar.currentMP -= moveMP;
+
+        if (currentBattleChar.currentMP < 0) {
+           currentBattleChar.currentMP = 0;
+        }
+        for (int i = 0; i < GameManager.instance.playerStats.Length; ++i) {
+            if (currentBattleChar.charName == GameManager.instance.playerStats[i].charName) {
+                GameManager.instance.playerStats[i].currentMP = currentBattleChar.currentMP;
+                break;
             }
         }
 
@@ -394,6 +410,10 @@ public class BattleManager : MonoBehaviour {
                 targetButtons[i].gameObject.SetActive(false);                
             }
         }
+    }
+
+    public void CloseTargetMenu() {
+        targetMenu.SetActive(false);
     }
 
     public void OpenMagicMenu() {
