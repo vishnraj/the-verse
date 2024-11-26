@@ -437,6 +437,10 @@ public class BattleManager : MonoBehaviour {
         }
     }
 
+    public void CloseMagicMenu() {
+        magicMenu.SetActive(false);
+    }
+
     public void Flee() {
         if (cannotFlee) {
             battleNotice.displayText.text = "Cannot flee this battle!";
