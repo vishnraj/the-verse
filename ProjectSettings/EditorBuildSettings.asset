@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheVerse/Cave-Verse-Test.unity
     guid: ecea0797668b744629337c92f7aae11e
+  - enabled: 1
+    path: Assets/Scenes/TheVerse/CombatArena.unity
+    guid: b205f74ad5b1c4d329118ae462c9c96c
   m_configObjects: {}
