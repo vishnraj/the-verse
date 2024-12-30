@@ -18285,6 +18285,219 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &689356207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689356209}
+  - component: {fileID: 689356208}
+  - component: {fileID: 689356211}
+  - component: {fileID: 689356210}
+  - component: {fileID: 689356212}
+  m_Layer: 0
+  m_Name: Moses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &689356208
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689356207}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1635161749
+  m_SortingLayer: 2
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 809230446, guid: 1a75922275d66440da2018e1d4660c64, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.1875, y: 13.3125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &689356209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689356207}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.12, y: 3.08, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &689356210
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689356207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -2.6218183}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.1875, y: 13.3125}
+    newSize: {x: 7.1875, y: 13.3125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 17.057877, y: 18.556133}
+  m_EdgeRadius: 0
+--- !u!61 &689356211
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689356207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.9253473}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.1875, y: 13.3125}
+    newSize: {x: 7.1875, y: 13.3125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.1875, y: 11.461805}
+  m_EdgeRadius: 0
+--- !u!114 &689356212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689356207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e72126c35405412caadbbdd356b03d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - Begin swine.
+  isPerson: 1
+  questToMark: Speak to Moses
+  markComplete: 1
+  questDialogues:
+  - questName: Speak to Moses
+    lines:
+    - n-Moses
+    - Hic..oh, it's you, late as usual, hic.
+    - n-Bear
+    - It's only by a minute.
+    - n-Jin
+    - Stop! Don't antagonize him!
+    - n-Mofus
+    - Sigh..Bear. If you keep this up, it's over.
+    - n-Moses
+    - That's right! Hic..I think I'll just give this spot up to someone else - someone
+      more deserving, yes, ohh yesss.
+    - Now get lost!
+  - questName: Acquire Juice
+    lines:
+    - n-Moses
+    - I said get lost, if you know what's good for you!
 --- !u!1001 &693766037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19756,6 +19969,208 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eecc5b4650fe74a0eb75b9ba3d8c1ea7, type: 3}
+--- !u!1001 &1170567402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 327019864440183764, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Size.x
+      value: 3.3943706
+      objectReference: {fileID: 0}
+    - target: {fileID: 327019864440183764, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Size.y
+      value: 4.5781274
+      objectReference: {fileID: 0}
+    - target: {fileID: 327019864440183764, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.03772044
+      objectReference: {fileID: 0}
+    - target: {fileID: 327019864440183764, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.2890637
+      objectReference: {fileID: 0}
+    - target: {fileID: 908399399396451615, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Size.x
+      value: 2.2860546
+      objectReference: {fileID: 0}
+    - target: {fileID: 908399399396451615, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9821889
+      objectReference: {fileID: 0}
+    - target: {fileID: 908399399396451615, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.12796354
+      objectReference: {fileID: 0}
+    - target: {fileID: 908399399396451615, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.47871697
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626796107684374642, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Name
+      value: Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: isPerson
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questToMark
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: markComplete
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: What was that?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].questName
+      value: Speak to Moses
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].questName
+      value: Acquire Juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
+      value: Quick! We need to speak to Moses or we'll miss our chance!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[2]
+      value: Quick! We need to speak to Moses or we'll miss our chance!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[3]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[4]
+      value: I don't think we're that late and what's the big deal, we can just come
+        back tomorrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[5]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[6]
+      value: No! Do you understand what I had to go through to get this spot? Without
+        this, we can never improve!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[7]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[8]
+      value: Ok, let's just see what's up
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[1]
+      value: OMG!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[3]
+      value: I mean, what's his problem, we're not really even late, he's just doing
+        this because he has authority
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[4]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[5]
+      value: Exactly! We have to play by his rules
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[6]
+      value: Ok, it's fine, I think I have a plan, let's reconvene at my place and
+        discuss.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[7]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[8]
+      value: Sure
+      objectReference: {fileID: 0}
+    - target: {fileID: 6987302653930400426, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1733704194, guid: 91e5c9ec230eb4287a460d67a9dfb77e, type: 3}
+    m_RemovedComponents:
+    - {fileID: 7239113590098622827, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dca60725301d74f2988db61f26cedca3, type: 3}
 --- !u!1 &1306655203
 GameObject:
   m_ObjectHideFlags: 0
@@ -55216,10 +55631,10 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   questDialogues:
-  - questName: Complete Moses Combat Trial
+  - questName: Speak to Moses
     lines:
     - To Kin's Town
-    - (Enlighten Moses)
+    - (Speak to Moses)
     - '- A1gKn'
 --- !u!61 &1475757621
 BoxCollider2D:
@@ -55281,6 +55696,194 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1718291063
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3157520255857158255, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Size.x
+      value: 4.298609
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157520255857158255, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Size.y
+      value: 5.0259237
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157520255857158255, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.07974434
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157520255857158255, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.14820099
+      objectReference: {fileID: 0}
+    - target: {fileID: 3596021707271975390, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Name
+      value: Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5848522488166918496, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Size.y
+      value: 2.2467594
+      objectReference: {fileID: 0}
+    - target: {fileID: 5848522488166918496, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.59432316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594110157403955792, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1964589026, guid: 38a1cc9e82969451386c362d9ad83e37, type: 3}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questToMark
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: markComplete
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Ugh, filthy, I can't believe he resorted to something so vile.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].questName
+      value: Speak to Moses
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].questName
+      value: Acquire Juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
+      value: Be careful, something is off. Look at him, Moses has been consuming
+        the juice again. Such filthiness cannot be overlooked.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[2]
+      value: Kin-san...I don't understand why he puts himself through such dire trials.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[3]
+      value: Surely he can't believe this will solve anything.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[1]
+      value: Don't worry Bear, it's not your fault.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[3]
+      value: Yeah, I know, it's because Moses is just a prick.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[4]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[5]
+      value: That's not why, but it's not your fault anyway. Let's head to Kin's.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[6]
+      value: Uncle Kin has a plan, as usual and I think I can guess to what it might
+        be.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[7]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[8]
+      value: What is it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[9]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[10]
+      value: Sigh, let's head to Kin's and then you'll see.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4197353263067506334, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
 --- !u!1001 &2013050226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64629,3 +65232,6 @@ SceneRoots:
   - {fileID: 45369025}
   - {fileID: 2013050226}
   - {fileID: 1475757622}
+  - {fileID: 689356209}
+  - {fileID: 1170567402}
+  - {fileID: 1718291063}
