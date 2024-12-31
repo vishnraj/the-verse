@@ -444,7 +444,8 @@ public class BattleManager : MonoBehaviour {
     public void Flee() {
         if (cannotFlee) {
             battleNotice.displayText.text = "Cannot flee this battle!";
-            battleNotice.Activate(); 
+            battleNotice.Activate();
+            return; 
         }
 
         int fleeSuccess = Random.Range(0, 100);
