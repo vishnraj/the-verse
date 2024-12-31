@@ -26,7 +26,7 @@ public class DialogueActivator : MonoBehaviour {
             return;
         }
 
-        if (canActivate && (Input.GetButtonDown("Fire1") || Input.GetKeyUp(KeyCode.Space)) && !DialogueManager.instance.dialogueBox.activeInHierarchy) {
+        if (canActivate && (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space)) && !DialogueManager.instance.dialogueBox.activeInHierarchy) {
             string[] dialogueLines = lines; // lines to use as default
             foreach (QuestDialogue quest in questDialogues) {
                 // if a quest is marked complete, proceed to the next dialogue for a not complete quest
