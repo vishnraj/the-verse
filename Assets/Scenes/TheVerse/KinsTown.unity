@@ -15930,7 +15930,7 @@ GameObject:
   - component: {fileID: 1301316795}
   - component: {fileID: 1301316794}
   m_Layer: 0
-  m_Name: FilthyTavernSign
+  m_Name: TheFilthyTavernSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15949,7 +15949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Filthy Tavern
+  - The Filthy Tavern
   isPerson: 0
   questToMark: 
   markComplete: 0
