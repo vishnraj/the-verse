@@ -6607,6 +6607,100 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a35482927ae59422996a5cab786aa3e8, type: 3}
+--- !u!1 &268650730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 268650731}
+  - component: {fileID: 268650733}
+  - component: {fileID: 268650734}
+  m_Layer: 0
+  m_Name: ReconveneAtKinCompletion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &268650731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268650730}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.94000006, z: -10}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2115654145603572823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &268650733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268650730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c8d631a9b3749c2ad2027663f5355a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questToMark: Reconvene at Kin's
+  markComplete: 1
+  markOnEnter: 0
+  deactivateOnMarking: 0
+--- !u!61 &268650734
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268650730}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.06703812, y: 0.4022286}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6256889, y: 2.206686}
+  m_EdgeRadius: 0
 --- !u!1 &431457034
 GameObject:
   m_ObjectHideFlags: 0
@@ -33444,6 +33538,54 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00caf64dcdbfc46d4a08f12cf1912c8f, type: 3}
+--- !u!1 &869052127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869052129}
+  - component: {fileID: 869052128}
+  m_Layer: 0
+  m_Name: ReconveneAtKinActivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &869052128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869052127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9268673ffba4140b8b5e6a9e6eee54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 268650730}
+  partyMemberIndexToActivate: 0
+  questToCheck: Speak to Moses
+  activeIfComplete: 1
+--- !u!4 &869052129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869052127}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4430887, y: -0.71577144, z: -10.039353}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1133863585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48203,11 +48345,297 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jin
       objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Let's go!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].questName
+      value: Speak to Moses
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].questName
+      value: Reconvene at Kin's
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].questName
+      value: Acquire Juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[4].questName
+      value: Acquire Juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.size
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[1]
+      value: Stop wasting time!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[3]
+      value: It's fine, we just have to head uptown, he's not that far.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[4]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[5]
+      value: Ok, but, please, let's just move out soon, so we don't miss our spot.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[7]
+      value: Ok, but, please, let's just move out soon, so we don't miss our spot.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[8]
+      value: 'It''s a special elixir, kinda illegal actually, but it can be found
+        somewhere in town '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[9]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[1]
+      value: Ok, so here's the thing guys - I know those two pricks, Jaguardish and
+        Frogsby, rigged this thing
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[3]
+      value: Right! So that's what I was saying, it's not because we were late, this
+        whole system is corrupt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[4]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[5]
+      value: Well, being late also didn't really help, since it gave Moses another
+        reason, grumble, grumble...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[6]
+      value: But anyway, let's not focus on that, we can still get in
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[7]
+      value: See the thing is, I heard that Moses takes a specific bribe
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[8]
+      value: 'It''s a special elixir, kinda illegal actually, but it can be found
+        somewhere in town '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[9]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[1]
+      value: Quick! Let's find that elixir and then we can use it as leverage!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[3]
+      value: Right! So that's what I was saying, it's not because we were late, this
+        whole system is corrupt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[4]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[5]
+      value: Well, being late also didn't really help, since it gave Moses another
+        reason, grumble, grumble...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[6]
+      value: But anyway, let's not focus on that, we can still get in
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[7]
+      value: See the thing is, I heard that Moses takse a specific bribe
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[8]
+      value: 'It''s a special elixir, kinda illegal actually, but it can be found
+        somewhere in town '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[9]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[10]
+      value: See! The juice! I told you Bear.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[11]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[12]
+      value: What are you talking about? It's an elixir, not a juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[13]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[14]
+      value: Aish, come on Bear, as a Growler Hunter, you should be able to figure
+        this kind of stuff out
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[15]
+      value: Tell em Kin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[16]
+      value: n-Kin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[17]
+      value: Why do I always have to deal with this? Sigh.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[18]
+      value: Let's just stick with the rumor I mentioned, it's an elixir and we gotta
+        find it, quick!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[10]
+      value: See! The juice! I told you Bear.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[11]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[12]
+      value: What are you talking about? It's an elixir, not a juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[13]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[14]
+      value: Aish, come on Bear, as a Growler Hunter, you should be able to figure
+        this kind of stuff out
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[15]
+      value: Tell em Kin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[16]
+      value: n-Kin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[17]
+      value: Why do I always have to deal with this? Sigh.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[18]
+      value: Let's just stick with the rumor I mentioned, it's an elixir and we gotta
+        find it, quick!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[10]
+      value: See! The juice! I told you Bear.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[11]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[12]
+      value: What are you talking about? It's an elixir, not a juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[13]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[14]
+      value: Aish, come on Bear, as a Growler Hunter, you should be able to figure
+        this kind of stuff out
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[15]
+      value: Tell em Kin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[16]
+      value: n-Kin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[17]
+      value: Why do I always have to deal with this? Sigh.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[18]
+      value: Let's just stick with the rumor I mentioned, it's an elixir and we gotta
+        find it, quick!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 268650731}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+--- !u!4 &2115654145603572823 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+  m_PrefabInstance: {fileID: 2115654145603572822}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6067140848883996352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48330,7 +48758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].questName
@@ -48338,7 +48766,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].questName
-      value: Mofus Joins Party
+      value: Speak to Moses
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].questName
+      value: Reconvene at Kin's
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].questName
+      value: Acquire Juice
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size
@@ -48346,7 +48782,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.size
-      value: 2
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.size
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[0]
@@ -48394,40 +48838,122 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[1]
-      value: Hmm, this is odd, where is Kin?
+      value: We'll need to make for the mark quick.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[2]
-      value: I wonder if we're too late...
+      value: n-Bear
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[3]
-      value: Aye Bear, I've been waiting for you to arrive, it is time
+      value: The mark?
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[4]
-      value: n-Bear
-      objectReference: {fileID: 0}
-    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
-      propertyPath: questDialogues.Array.data[1].lines.Array.data[5]
-      value: Alright, where is it?
-      objectReference: {fileID: 0}
-    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
-      propertyPath: questDialogues.Array.data[1].lines.Array.data[6]
       value: n-Mofus
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
-      propertyPath: questDialogues.Array.data[1].lines.Array.data[7]
-      value: Aish, we can't just go find it that easily, first we must meet up with
-        Kin-san
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[5]
+      value: Bear. You know there's always a mark, as a Growler Hunter, don't get
+        distracted.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
-      propertyPath: questDialogues.Array.data[1].lines.Array.data[8]
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[6]
       value: n-Bear
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[7]
+      value: I think we're just trying to get some more combat experience, we need
+        to go through the combat trials for that to happen.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[1].lines.Array.data[8]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[9]
-      value: Kin-san? Don't think I've met this individual before
+      value: Sigh, fine, you'll just have to witness it. Let's go see Moses.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[1]
+      value: Alright, you saw Moses in there didn't you Bear?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[2]
+      value: He's juiced up, just another junkie now.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[3]
+      value: As a Growler Hunter you should know the play here
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[4]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[5]
+      value: What juice?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[6]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[7]
+      value: You know, the juice!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[8]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[9]
+      value: I don't
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[1]
+      value: So as expected, it's come to finding the juice.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[3]
+      value: The elixir.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[4]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[5]
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[6]
+      value: Yes, the sweet and delicious. Let's just think of where Moses would
+        go for his fix.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[7]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[8]
+      value: What?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[9]
+      value: n-Mofus
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[10]
@@ -48505,11 +49031,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[11]
-      value: Thou hast met Kin, he is a 60 year old fox spirit.
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[12]
-      value: n-Bear
+      value: Speak to Uncle Kin.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[13]
@@ -48533,6 +49059,30 @@ PrefabInstance:
       propertyPath: questDialogues.Array.data[1].lines.Array.data[17]
       value: Mofus has joined the party...
       objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[10]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[11]
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[12]
+      value: Speak to Uncle Kin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[10]
+      value: 'It''s fine, just make sure to not fall prey '
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[11]
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[12]
+      value: Speak to Uncle Kin.
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4197353263067506334, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
     m_RemovedGameObjects: []
@@ -48548,5 +49098,6 @@ SceneRoots:
   - {fileID: 1524288179}
   - {fileID: 1133863585}
   - {fileID: 6067140848883996352}
-  - {fileID: 1236505362}
   - {fileID: 2115654145603572822}
+  - {fileID: 1236505362}
+  - {fileID: 869052129}

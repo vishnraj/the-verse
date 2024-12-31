@@ -18495,6 +18495,10 @@ MonoBehaviour:
       more deserving, yes, ohh yesss.
     - And without me, your chance to use the combat trial device is gone, hic.
     - Now get lost!
+  - questName: Reconvene at Kin's
+    lines:
+    - n-Moses
+    - I said get lost, if you know what's good for you!
   - questName: Acquire Juice
     lines:
     - n-Moses
@@ -18755,6 +18759,10 @@ MonoBehaviour:
     - n-Count Frogsby
     - Bahahah, to think such insolent fools would even attempt to participate.
     - But even more foolish is that lord over there who thinks he's secured his bets.
+  - questName: Reconvene at Kin's
+    lines:
+    - n-Count Frogsby
+    - Begone vermin, this is not a game for lowly individuals such as yourself.
   - questName: Acquire Juice
     lines:
     - n-Count Frogsby
@@ -20203,7 +20211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 908399399396451615, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: m_Size.y
-      value: 1.9821889
+      value: 3.266116
       objectReference: {fileID: 0}
     - target: {fileID: 908399399396451615, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: m_Offset.x
@@ -20211,7 +20219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 908399399396451615, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: m_Offset.y
-      value: -0.47871697
+      value: 0.16324651
       objectReference: {fileID: 0}
     - target: {fileID: 3534652993433191544, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20275,7 +20283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[0].questName
@@ -20283,6 +20291,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[1].questName
+      value: Reconvene at Kin's
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].questName
       value: Acquire Juice
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
@@ -20292,6 +20304,10 @@ PrefabInstance:
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.size
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
@@ -20366,6 +20382,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[8]
+      value: Sure
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[1]
+      value: Well, we still don't have the elixir, so he's not going to let us use
+        the device. Let's keep searching.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[3]
+      value: I mean, what's his problem, we're not really even late, he's just doing
+        this because he has authority
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[4]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[5]
+      value: Exactly! We have to play by his rules
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[6]
+      value: Ok, it's fine, I think I have a plan, let's reconvene at my place and
+        discuss.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[7]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[8]
       value: Sure
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
@@ -56069,6 +56124,10 @@ MonoBehaviour:
     lines:
     - Combat Trial Machine
     - (Does not respond)
+  - questName: Reconvene at Kin's
+    lines:
+    - Combat Trial Machine
+    - (Does not respond)
   - questName: Acquire Juice
     lines:
     - Combat Trial Machine
@@ -56148,11 +56207,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5848522488166918496, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_Size.y
-      value: 2.2467594
+      value: 3.647407
       objectReference: {fileID: 0}
     - target: {fileID: 5848522488166918496, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_Offset.y
-      value: -0.59432316
+      value: 0.10600066
       objectReference: {fileID: 0}
     - target: {fileID: 8140791288199558722, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56220,7 +56279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].questName
@@ -56228,6 +56287,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].questName
+      value: Reconvene at Kin's
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].questName
       value: Acquire Juice
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
@@ -56237,6 +56300,10 @@ PrefabInstance:
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.size
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.size
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[0]
@@ -56313,7 +56380,52 @@ PrefabInstance:
       value: n-Mofus
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[1]
+      value: He needs his nourshiment. His sweet and delicious.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[2]
+      value: We just have to find it and feed it to him. Once that's done, Bear,
+        please, just make sure you're ready.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[3]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[4]
+      value: I'll be ready.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[5]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[6]
+      value: Good. I trust you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[7]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[8]
+      value: What is it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[9]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[10]
+      value: Sigh, let's head to Kin's and then you'll see.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[2].lines.Array.data[10]
       value: Sigh, let's head to Kin's and then you'll see.
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -65768,6 +65880,11 @@ MonoBehaviour:
     - n-Lord Jaguardish
     - That fool Jin, he really thinks he can participate in these trials.
     - I've already ensured my positions.
+  - questName: Reconvene at Kin's
+    lines:
+    - n-Lord Jaguardish
+    - Hah, precisely, you fools have no chance to participate, you are but meager
+      serfs within our dominion.
   - questName: Acquire Juice
     lines:
     - n-Lord Jaguardish
