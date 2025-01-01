@@ -300,6 +300,114 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a35482927ae59422996a5cab786aa3e8, type: 3}
+--- !u!1001 &209526860
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Size.x
+      value: 0.80218744
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Size.y
+      value: 0.26586533
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.95725656
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025152080771622092, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5603485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090563524062774748, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3495959342332091049, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: transitionName
+      value: KinsTown-0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681082333529678824, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681082333529678824, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703624809144612830, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_Name
+      value: AreaExitFilthyTavern
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: areaToLoad
+      value: FilthyTavern
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: theEntrance
+      value: 
+      objectReference: {fileID: 209526861}
+    - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: areaTransitionName
+      value: TavernKinsTown-0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+--- !u!114 &209526861 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3495959342332091049, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+  m_PrefabInstance: {fileID: 209526860}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcefb15f6761471ab91c693c012ad61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &434684310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59685,4 +59793,5 @@ SceneRoots:
   - {fileID: 434684310}
   - {fileID: 1940253451}
   - {fileID: 111099127}
+  - {fileID: 209526860}
   - {fileID: 1330238274}
