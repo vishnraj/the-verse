@@ -48370,6 +48370,10 @@ PrefabInstance:
       value: Acquire Juice
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.size
       value: 6
       objectReference: {fileID: 0}
@@ -48508,6 +48512,46 @@ PrefabInstance:
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[3].lines.Array.data[9]
       value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[10]
+      value: n-A1gKn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[11]
+      value: (A voice from somewhere) Jin has joined the party...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[12]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[13]
+      value: Huh, there was that voice again - you heard it, right Mofus?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[14]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[15]
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[16]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[17]
+      value: OMG, stop, we need to go!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[18]
+      value: Besides, it's the same thing, the name... grumble...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[19]
+      value: Sigh, this is dumb - we need to go now!
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[10]
