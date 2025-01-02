@@ -380,6 +380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AreaExitFilthyTavern
       objectReference: {fileID: 0}
+    - target: {fileID: 4703624809144612830, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8281546678825751863, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
       propertyPath: areaToLoad
       value: FilthyTavern
@@ -408,6 +412,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bcefb15f6761471ab91c693c012ad61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &209526862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4703624809144612830, guid: a7a58b5f4e40b4af5b15854fcf5e8fa6, type: 3}
+  m_PrefabInstance: {fileID: 209526860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &434684310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16061,7 +16070,12 @@ MonoBehaviour:
   isPerson: 0
   questToMark: 
   markComplete: 0
-  questDialogues: []
+  questDialogues:
+  - questName: Meet Kin
+    lines:
+    - The Filthy Tavern
+    - (Talk to Kin first)
+    - '- A1gKn'
 --- !u!61 &1301316795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16132,8 +16146,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1330238274}
   - component: {fileID: 1330238273}
+  - component: {fileID: 1330238275}
   m_Layer: 0
-  m_Name: ActivatorAreaExitCombatArena
+  m_Name: ActivatorAreaExitsMeetKin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16170,6 +16185,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1330238275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330238272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9268673ffba4140b8b5e6a9e6eee54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 209526862}
+  partyMemberIndexToActivate: 0
+  questToCheck: Meet Kin
+  activeIfComplete: 1
 --- !u!1 &1355930839
 GameObject:
   m_ObjectHideFlags: 0
