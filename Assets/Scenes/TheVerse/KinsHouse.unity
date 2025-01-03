@@ -6655,7 +6655,7 @@ MonoBehaviour:
   questToMark: Reconvene at Kin's
   markComplete: 1
   markOnEnter: 0
-  deactivateOnMarking: 0
+  deactivateOnMarking: 1
 --- !u!61 &268650734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48363,7 +48363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[3].questName
-      value: Acquire Juice
+      value: Juice Intel
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[4].questName
@@ -48834,7 +48834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[3].questName
-      value: Acquire Juice
+      value: Juice Intel
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size

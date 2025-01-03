@@ -18499,7 +18499,7 @@ MonoBehaviour:
     lines:
     - n-Moses
     - I said get lost, if you know what's good for you!
-  - questName: Acquire Juice
+  - questName: Juice Intel
     lines:
     - n-Moses
     - I said get lost, if you know what's good for you!
@@ -18763,7 +18763,7 @@ MonoBehaviour:
     lines:
     - n-Count Frogsby
     - Begone vermin, this is not a game for lowly individuals such as yourself.
-  - questName: Acquire Juice
+  - questName: Juice Intel
     lines:
     - n-Count Frogsby
     - Begone vermin, this is not a game for lowly individuals such as yourself.
@@ -20295,7 +20295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[2].questName
-      value: Acquire Juice
+      value: Juice Intel
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size
@@ -56115,7 +56115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e72126c35405412caadbbdd356b03d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - Combat Trial Machine
   isPerson: 0
   questToMark: 
   markComplete: 0
@@ -56128,7 +56129,7 @@ MonoBehaviour:
     lines:
     - Combat Trial Machine
     - (Does not respond)
-  - questName: Acquire Juice
+  - questName: Juice Intel
     lines:
     - Combat Trial Machine
     - (Does not respond)
@@ -56291,7 +56292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[2].questName
-      value: Acquire Juice
+      value: Juice Intel
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size
@@ -65885,7 +65886,7 @@ MonoBehaviour:
     - n-Lord Jaguardish
     - Hah, precisely, you fools have no chance to participate, you are but meager
       serfs within our dominion.
-  - questName: Acquire Juice
+  - questName: Juice Intel
     lines:
     - n-Lord Jaguardish
     - Hah, precisely, you fools have no chance to participate, you are but meager
@@ -65994,6 +65995,6 @@ SceneRoots:
   - {fileID: 689356209}
   - {fileID: 2136632871}
   - {fileID: 760016663}
-  - {fileID: 1538388861}
   - {fileID: 1170567402}
   - {fileID: 1718291063}
+  - {fileID: 1538388861}

@@ -42511,54 +42511,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00caf64dcdbfc46d4a08f12cf1912c8f, type: 3}
---- !u!1 &869052127
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 869052129}
-  - component: {fileID: 869052128}
-  m_Layer: 0
-  m_Name: ReconveneAtKinActivator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &869052128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 869052127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9268673ffba4140b8b5e6a9e6eee54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 0}
-  partyMemberIndexToActivate: 0
-  questToCheck: Speak to Moses
-  activeIfComplete: 1
---- !u!4 &869052129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 869052127}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4430887, y: -0.71577144, z: -10.039353}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1004726695
 GameObject:
   m_ObjectHideFlags: 0
@@ -42901,7 +42853,8 @@ Transform:
   m_LocalPosition: {x: -0.12, y: 1.48, z: 0}
   m_LocalScale: {x: 0.04, y: 0.04, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1372020815}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1193444040
@@ -43006,51 +42959,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e72126c35405412caadbbdd356b03d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - n-Tavern Owner
+  - Heh, whaddya chumps want - either buy something, or take a hike
+  - n-Kin
+  - Well, I don't really want anything here, so I dunno, but you guys should get
+    something
+  - n-Mofus
+  - (licks lips) You've offended me Kin-san, but I know you didn't mean it.
+  - n-Bear
+  - Yeah I'm good
+  - n-Tavern Owner
+  - Get out! I don't entertain clients that don't pay!
   isPerson: 1
-  questToMark: 
-  markComplete: 0
+  questToMark: Juice Intel
+  markComplete: 1
   questDialogues:
-  - questName: Meet Kin
-    lines:
-    - n-Tavern Owner
-    - Heh, whaddya chumps want - either buy something, or take a hike
-    - n-Kin
-    - Well, I don't really want anything here, so I dunno, but you guys should get
-      something
-    - n-Mofus
-    - (licks lips) You've offended me Kin-san, but I know you didn't mean it.
-    - n-Bear
-    - Yeah I'm good
-    - n-Tavern Owner
-    - Get out! I don't entertain clients that don't pay!
-  - questName: Speak to Moses
-    lines:
-    - n-Tavern Owner
-    - Heh, whaddya chumps want - either buy something, or take a hike
-    - n-Kin
-    - Well, I don't really want anything here, so I dunno, but you guys should get
-      something
-    - n-Mofus
-    - (licks lips) You've offended me Kin-san, but I know you didn't mean it.
-    - n-Bear
-    - Yeah I'm good
-    - n-Tavern Owner
-    - Get out! I don't entertain clients that don't pay!
-  - questName: Reconvene at Kin's
-    lines:
-    - n-Tavern Owner
-    - Heh, whaddya chumps want - either buy something, or take a hike
-    - n-Kin
-    - Well, I don't really want anything here, so I dunno, but you guys should get
-      something
-    - n-Mofus
-    - (licks lips) You've offended me Kin-san, but I know you didn't mean it.
-    - n-Bear
-    - Yeah I'm good
-    - n-Tavern Owner
-    - Get out! I don't entertain clients that don't pay!
-  - questName: Acquire Juice
+  - questName: Juice Intel
     lines:
     - n-Tavern Owner
     - Heh, whaddya chumps want - either buy something, or take a hike
@@ -43183,6 +43108,158 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bcefb15f6761471ab91c693c012ad61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1328501130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1328501131}
+  - component: {fileID: 1328501132}
+  m_Layer: 0
+  m_Name: BattleZoneActivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1328501131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328501130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7599764, y: -1.8204337, z: -9.989752}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1328501132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328501130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9268673ffba4140b8b5e6a9e6eee54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 1372020814}
+  partyMemberIndexToActivate: 0
+  questToCheck: Juice Intel
+  activeIfComplete: 1
+  deactivateActivatorObjectAfter: 1
+--- !u!1 &1372020814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1372020815}
+  - component: {fileID: 1372020817}
+  - component: {fileID: 1372020816}
+  m_Layer: 0
+  m_Name: BattleZoneTavernOwner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1372020815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372020814}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 4, z: -9.989752}
+  m_LocalScale: {x: 25, y: 25, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1193444039}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1372020816
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372020814}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.31964242, y: -1.6514862}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.540469, y: 6.647016}
+  m_EdgeRadius: 0
+--- !u!114 &1372020817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372020814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ad9d335f13c4d3293b54d3dd874f9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potentialBattles:
+  - enemies:
+    - FilthyTavernOwner
+    rewardXP: 700
+    rewardItems: []
+  activateOnEnter: 0
+  activateOnStay: 1
+  activateOnExit: 0
+  timeBetweenBattles: 0
+  deactivateAfterStarting: 1
+  cannotFlee: 1
+  shouldCompleteQuest: 1
+  QuestToComplete: Acquire Juice
 --- !u!1 &1524288177
 GameObject:
   m_ObjectHideFlags: 0
@@ -58893,14 +58970,14 @@ SceneRoots:
   m_Roots:
   - {fileID: 168071675}
   - {fileID: 693766037}
+  - {fileID: 1236505362}
   - {fileID: 1524288179}
   - {fileID: 1133863585}
   - {fileID: 6067140848883996352}
   - {fileID: 2115654145603572822}
-  - {fileID: 1236505362}
-  - {fileID: 869052129}
   - {fileID: 1193444039}
   - {fileID: 92142417}
   - {fileID: 1004726697}
   - {fileID: 428352826}
   - {fileID: 1635953171}
+  - {fileID: 1328501131}

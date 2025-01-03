@@ -22,21 +22,45 @@ public class DialogueActivator : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (GameManager.instance.gameMenuOpen) {
+        if (GameManager.instance.gameMenuOpen || GameManager.instance.battleActive) {
             return;
         }
 
         if (canActivate && (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space)) && !DialogueManager.instance.dialogueBox.activeInHierarchy) {
             string[] dialogueLines = lines; // lines to use as default
-            foreach (QuestDialogue quest in questDialogues) {
-                // if a quest is marked complete, proceed to the next dialogue for a not complete quest
-                if (!QuestManager.instance.CheckIfComplete(quest.questName)) {
-                    dialogueLines = quest.lines;
-                    break; // always select the first available quest dialogue, for now we're only completing these in order
+
+            bool questCheck = false;
+            if (questDialogues.Count > 0) {
+                QuestDialogue firstNonCompleteQuest = null;
+                foreach (var quest in questDialogues) {
+                    if (!QuestManager.instance.CheckIfComplete(quest.questName)) {
+                        firstNonCompleteQuest = quest;
+                        break;
+                    }
+                }
+
+                if (firstNonCompleteQuest != null) {
+                    string[] questMarkerNames = QuestManager.instance.questMarkerNames;
+                    for (int i = 0; i < QuestManager.instance.questMarkersComplete.Length; ++i) {
+                        if (!QuestManager.instance.questMarkersComplete[i]) {
+                            if (questMarkerNames[i] == firstNonCompleteQuest.questName) {
+                                dialogueLines = firstNonCompleteQuest.lines;
+                            }
+
+                            if (questToMark == questMarkerNames[i]) {
+                               questCheck = true;
+                            }
+                            break;
+                        }
+                    }
                 }
             }
+
             DialogueManager.instance.ShowDialogue(dialogueLines, isPerson);
-            DialogueManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);
+
+            if (questCheck) {
+                DialogueManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);
+            }
         }
     }
 
