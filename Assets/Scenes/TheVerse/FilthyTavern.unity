@@ -43249,7 +43249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potentialBattles:
   - enemies:
-    - FilthyTavernOwner
+    - Tavern Owner
     rewardXP: 700
     rewardItems: []
   activateOnEnter: 0

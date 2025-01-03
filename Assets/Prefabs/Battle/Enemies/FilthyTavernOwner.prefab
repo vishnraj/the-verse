@@ -101,7 +101,7 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   - Plasma
-  charName: FilthyTavernOwner
+  charName: Tavern Owner
   currentHP: 400
   maxHP: 400
   currentMP: 0
