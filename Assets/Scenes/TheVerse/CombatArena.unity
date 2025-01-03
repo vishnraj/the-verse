@@ -18475,6 +18475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
+  - n-Moses
   - Begin swine.
   isPerson: 1
   questToMark: Speak to Moses
@@ -18749,7 +18750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e72126c35405412caadbbdd356b03d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - Ribbit, you will all suffer for what you've done.
   isPerson: 1
   questToMark: 
   markComplete: 0
@@ -20279,7 +20281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: lines.Array.data[1]
-      value: What was that?
+      value: We should be able to use it now
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.size
@@ -56276,7 +56278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: lines.Array.data[1]
-      value: Ugh, filthy, I can't believe he resorted to something so vile.
+      value: Let us begin.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.size
@@ -65871,7 +65873,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e72126c35405412caadbbdd356b03d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - It makes no difference, face your fate then.
   isPerson: 1
   questToMark: 
   markComplete: 0
