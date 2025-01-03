@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &653010854717440303
+--- !u!1 &7360277484010937184
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6493840653908998717}
-  - component: {fileID: 5398233681189188005}
-  - component: {fileID: 4173474754664677823}
+  - component: {fileID: 3035282151080144220}
+  - component: {fileID: 2988502080711248027}
+  - component: {fileID: 5938421377079248923}
   m_Layer: 0
-  m_Name: FilthyTavernOwner
+  m_Name: BadgerBruiser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6493840653908998717
+--- !u!4 &3035282151080144220
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653010854717440303}
+  m_GameObject: {fileID: 7360277484010937184}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 1.5, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalPosition: {x: -5, y: -1.5, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5398233681189188005
+--- !u!212 &2988502080711248027
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653010854717440303}
+  m_GameObject: {fileID: 7360277484010937184}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,24 +74,24 @@ SpriteRenderer:
   m_SortingLayerID: 445987449
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b69449aee13fa4298986f03e3209ba70, type: 3}
+  m_Sprite: {fileID: -147721897, guid: 8951f662556ae4e41875638c3f9c99f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.875, y: 1.5}
+  m_Size: {x: 1.8125, y: 2.1875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4173474754664677823
+--- !u!114 &5938421377079248923
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653010854717440303}
+  m_GameObject: {fileID: 7360277484010937184}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d59a82e49310b4c758d038c9f173cad5, type: 3}
@@ -100,18 +100,18 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  - Plasma
-  charName: Tavern Owner
-  currentHP: 500
-  maxHP: 500
+  - Fire
+  charName: Badger Bruiser
+  currentHP: 300
+  maxHP: 300
   currentMP: 0
   maxMP: 0
-  strength: 12
-  defense: 14
-  wpnPwr: 6
-  armrPwr: 7
+  strength: 7
+  defense: 5
+  wpnPwr: 7
+  armrPwr: 5
   hasDied: 0
-  spriteRenderer: {fileID: 5398233681189188005}
+  spriteRenderer: {fileID: 2988502080711248027}
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 0}
   fadeSpeed: 1

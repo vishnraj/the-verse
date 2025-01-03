@@ -384,9 +384,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potentialBattles:
   - enemies:
-    - Skeleton
-    - Eyeball
-    - Eyeball
+    - Marauder Bear
+    - Badger Thug
+    - Badger Bruiser
     rewardXP: 200
     rewardItems:
     - Health Potion
@@ -3476,6 +3476,7 @@ MonoBehaviour:
   partyMemberIndexToActivate: 0
   questToCheck: Defeat enemies enroute to Kin's
   activeIfComplete: 1
+  deactivateActivatorObjectAfter: 0
 --- !u!4 &1611620942
 Transform:
   m_ObjectHideFlags: 0
