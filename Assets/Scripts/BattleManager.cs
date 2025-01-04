@@ -56,6 +56,7 @@ public class BattleManager : MonoBehaviour {
 
     public int rewardXP;
     public string[] rewardItems;
+    public int rewardGold;
 
     public bool cannotFlee;
 
@@ -267,7 +268,7 @@ public class BattleManager : MonoBehaviour {
             gameOverSet = false;
         } else {
             // we should only be opening this screen in the case of victory
-            BattleReward.instance.OpenRewardsScreen(rewardXP, rewardItems);
+            BattleReward.instance.OpenRewardsScreen(rewardXP, rewardItems, rewardGold);
         }
         
         AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);

@@ -15,6 +15,8 @@ public class BattleReward : MonoBehaviour {
     public bool markQuestComplete;
     public string questToMark;
 
+    public int goldEarned;
+
     // Start is called before the first frame update
     void Start() {
         instance = this;
@@ -27,16 +29,17 @@ public class BattleReward : MonoBehaviour {
 
     void TestOpenRewardsScreen() {
         if (Input.GetKeyDown(KeyCode.Y)) {
-            OpenRewardsScreen(54, new string[] {"Iron Sword", "Iron Armor"});
+            OpenRewardsScreen(54, new string[] {"Iron Sword", "Iron Armor"}, 100);
         }
     }
 
-    public void OpenRewardsScreen(int xp, string[] rewards) {
+    public void OpenRewardsScreen(int xp, string[] rewards, int gold) {
         xpEarned = xp;
         rewardItems = rewards;
+        goldEarned = gold;
 
         xpText.text = "Everyone earned " + xpEarned + " xp! ";
-        itemText.text = "";
+        itemText.text = "Gold Earned: " + goldEarned + "g\n";
 
         for (int i = 0; i < rewardItems.Length; ++i) {
             itemText.text += rewards[i] + "\n";
@@ -51,6 +54,8 @@ public class BattleReward : MonoBehaviour {
                 GameManager.instance.playerStats[i].AddExp(xpEarned);
             }
         }
+
+        GameManager.instance.currentGold += goldEarned;
 
         for (int i = 0; i < rewardItems.Length; ++i) {
             GameManager.instance.AddItem(rewardItems[i]);

@@ -7,4 +7,5 @@ public class BattleTypes {
     public string[] enemies;
     public int rewardXP;
     public string[] rewardItems;
+    public int rewardGold;
 }

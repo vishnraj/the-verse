@@ -43631,6 +43631,7 @@ MonoBehaviour:
     - Badger Bruiser
     rewardXP: 700
     rewardItems: []
+    rewardGold: 50
   activateOnEnter: 0
   activateOnStay: 1
   activateOnExit: 0

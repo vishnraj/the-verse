@@ -390,6 +390,7 @@ MonoBehaviour:
     rewardXP: 200
     rewardItems:
     - Health Potion
+    rewardGold: 10
   activateOnEnter: 1
   activateOnStay: 0
   activateOnExit: 0
