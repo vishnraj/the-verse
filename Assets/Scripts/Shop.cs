@@ -53,6 +53,8 @@ public class Shop : MonoBehaviour {
     }
 
     public void CloseShop() {
+        sellMenu.SetActive(false);
+        buyMenu.SetActive(false);
         shopMenu.SetActive(false);
         GameManager.instance.shopActive = false;
     }
