@@ -208,6 +208,8 @@ public class GameMenu : MonoBehaviour {
     }
 
     public void ShowKeyItems() {
+        GameManager.instance.SortKeyItems();
+
         for (int i = 0; i < keyItemButtons.Length; i++)   {
             keyItemButtons[i].buttonValue = i;
             

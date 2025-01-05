@@ -43630,7 +43630,8 @@ MonoBehaviour:
     - Badger Thug
     - Badger Bruiser
     rewardXP: 700
-    rewardItems: []
+    rewardItems:
+    - The Juice
     rewardGold: 50
   activateOnEnter: 0
   activateOnStay: 1

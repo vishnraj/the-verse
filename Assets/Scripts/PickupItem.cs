@@ -14,7 +14,11 @@ public class PickupItem : MonoBehaviour {
     void Update() {
         if (canPickup && (Input.GetButtonDown("Fire1") || Input.GetKeyUp(KeyCode.Space)) && PlayerController.instance.canMove) {
             GameManager.instance.SortItems();
-            GameManager.instance.AddItem(GetComponent<Item>().itemName);
+            if (GameManager.instance.GetItemDetails(GetComponent<Item>().itemName).isKeyItem) {
+                GameManager.instance.AddKeyItem(GetComponent<Item>().itemName);
+            } else {
+                GameManager.instance.AddItem(GetComponent<Item>().itemName);
+            }
             Destroy(gameObject);
         }
     }

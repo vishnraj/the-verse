@@ -87,6 +87,27 @@ public class GameManager : MonoBehaviour {
         return null;
     }
 
+    public void SortKeyItems() {
+        bool done = false;
+        while (!done) {
+            bool itemMoved = false;
+            for (int i = 0; i < keyItems.Length - 1; i++) {
+                if (keyItems[i] == "") {
+                    keyItems[i] = keyItems[i + 1];
+                    keyItems[i + 1] = "";
+
+                    if (keyItems[i] != "") {
+                        itemMoved = true;
+                    }
+                }
+            }
+
+            if (!itemMoved) {
+                done = true;
+            }
+        }
+    }
+
     public void SortItems() {
         bool done = false;
         while (!done) {
@@ -109,6 +130,36 @@ public class GameManager : MonoBehaviour {
                 done = true;
             }
         }
+    }
+
+    public void AddKeyItem(string itemToAdd) {
+        bool foundSpace = false;
+
+        for (int i = 0; i < keyItems.Length; i++) {
+            if (keyItems[i] == "") {
+                keyItems[i] = itemToAdd;
+                foundSpace = true;
+                break;
+            }
+        }
+
+        if (!foundSpace) {
+            Debug.LogError("Key Items are full");
+        }
+    }
+
+    public bool RemoveKeyItem(string itemToRemove) {
+        bool foundItem = false;
+
+        for (int i = 0; i < keyItems.Length; i++) {
+            if (keyItems[i] == itemToRemove) {
+                keyItems[i] = "";
+                foundItem = true;
+                break;
+            }
+        }
+
+        return foundItem;
     }
 
     public void AddItem(string itemToAdd) {

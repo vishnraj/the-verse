@@ -58,7 +58,11 @@ public class BattleReward : MonoBehaviour {
         GameManager.instance.currentGold += goldEarned;
 
         for (int i = 0; i < rewardItems.Length; ++i) {
-            GameManager.instance.AddItem(rewardItems[i]);
+            if (GameManager.instance.GetItemDetails(rewardItems[i]).isKeyItem) {
+                GameManager.instance.AddKeyItem(rewardItems[i]);
+            } else {
+                GameManager.instance.AddItem(rewardItems[i]);
+            }
         }
 
         rewardScreen.SetActive(false);
