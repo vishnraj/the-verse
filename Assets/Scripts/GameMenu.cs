@@ -37,10 +37,10 @@ public class GameMenu : MonoBehaviour {
 
     public Image statusImage;
 
-    public ItemButton[] itemButtons;
+    public ItemButton[] itemButtons, keyItemButtons;
     public string selectedItem;
     public Item activeItem;
-    public Text itemName, itemDescription, useButtonText;
+    public Text itemName, itemDescription, useButtonText, keyItemName, keyItemDescription;
 
     public static GameMenu instance;
 
@@ -207,8 +207,29 @@ public class GameMenu : MonoBehaviour {
         }
     }
 
+    public void ShowKeyItems() {
+        for (int i = 0; i < keyItemButtons.Length; i++)   {
+            keyItemButtons[i].buttonValue = i;
+            
+            if (GameManager.instance.keyItems[i] != "") {
+                keyItemButtons[i].buttonImage.gameObject.SetActive(true);
+                keyItemButtons[i].buttonImage.sprite = GameManager.instance.GetItemDetails(GameManager.instance.keyItems[i]).itemSprite;
+            } else {
+               keyItemButtons[i].buttonImage.gameObject.SetActive(false);
+            }
+
+            keyItemButtons[i].amountText.text = ""; // key items don't have amounts
+        }
+    }
+
     public void SelectItem(Item newItem) {
        activeItem = newItem;
+
+        if (activeItem.isKeyItem) {
+            keyItemName.text = activeItem.itemName;
+            keyItemDescription.text = activeItem.description;
+            return;
+        }
 
         if (activeItem.isItem) {
             useButtonText.text = "Use";

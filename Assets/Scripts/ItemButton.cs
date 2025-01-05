@@ -23,6 +23,10 @@ public class ItemButton : MonoBehaviour {
             if (GameManager.instance.itemsHeld[buttonValue] != "") {
                 GameMenu.instance.SelectItem(GameManager.instance.GetItemDetails(GameManager.instance.itemsHeld[buttonValue]));
             }
+
+            if (GameManager.instance.keyItems[buttonValue] != "") {
+                GameMenu.instance.SelectItem(GameManager.instance.GetItemDetails(GameManager.instance.keyItems[buttonValue]));
+            }
         }
 
         if (BattleManager.instance.battleItemsMenu.activeInHierarchy) {

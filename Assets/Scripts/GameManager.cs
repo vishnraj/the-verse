@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
     public bool gameMenuOpen, dialogueActive, fadingBetweenAreas, shopActive, battleActive;
 
     public string[] itemsHeld;
+    public string[] keyItems;
     public int[] numberOfItems;
     public Item[] referenceItems;
 
