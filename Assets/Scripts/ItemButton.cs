@@ -19,11 +19,15 @@ public class ItemButton : MonoBehaviour {
     }
 
     public void Press() {
-        if (GameMenu.instance.menu.activeInHierarchy) {
+        // if regular items is active
+        if (GameMenu.instance.menu.activeInHierarchy && GameMenu.instance.windows[0].activeInHierarchy) {
             if (GameManager.instance.itemsHeld[buttonValue] != "") {
                 GameMenu.instance.SelectItem(GameManager.instance.GetItemDetails(GameManager.instance.itemsHeld[buttonValue]));
             }
+        }
 
+        // if key items is active
+        if (GameMenu.instance.menu.activeInHierarchy && GameMenu.instance.windows[2].activeInHierarchy) {
             if (GameManager.instance.keyItems[buttonValue] != "") {
                 GameMenu.instance.SelectItem(GameManager.instance.GetItemDetails(GameManager.instance.keyItems[buttonValue]));
             }
