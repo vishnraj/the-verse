@@ -7,6 +7,7 @@ public class Item : MonoBehaviour {
     public bool isItem;
     public bool isWeapon;
     public bool isArmor;
+    public bool isKeyItem;
 
     [Header("Item Details")]
     public string itemName;
