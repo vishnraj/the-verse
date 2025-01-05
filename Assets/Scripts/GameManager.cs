@@ -247,7 +247,10 @@ public class GameManager : MonoBehaviour {
         for (int i = 0; i < itemsHeld.Length; i++) {
             PlayerPrefs.SetString("ItemInInventory_" + i, itemsHeld[i]);
             PlayerPrefs.SetInt("ItemAmount_" + i, numberOfItems[i]);
+            PlayerPrefs.SetString("KeyItem_" + i, keyItems[i]);
         }
+
+        PlayerPrefs.SetInt("CurrentGold", currentGold);
     }
 
     public void LoadData() {
@@ -283,6 +286,9 @@ public class GameManager : MonoBehaviour {
         for (int i = 0; i < itemsHeld.Length; i++) {
             itemsHeld[i] = PlayerPrefs.GetString("ItemInInventory_" + i);
             numberOfItems[i] = PlayerPrefs.GetInt("ItemAmount_" + i);
+            keyItems[i] = PlayerPrefs.GetString("KeyItem_" + i);
         }
+
+        currentGold = PlayerPrefs.GetInt("CurrentGold");
     }
 }
