@@ -7913,11 +7913,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Filthy Fox
-  - Oh man, huhuh, yeah I need more of that stuff
+  - Please man, huhuh, don't hurt me, but could you share some of that stuff you
+    got
   isPerson: 1
   questToMark: 
   markComplete: 0
-  questDialogues: []
+  questDialogues:
+  - questName: Speak to Moses
+    lines:
+    - n-Filthy Fox
+    - Oh man, huhuh, yeah I need more of that stuff
+  - questName: Reconvene at Kin's
+    lines:
+    - n-Filthy Fox
+    - Oh man, huhuh, yeah I need more of that stuff
+  - questName: Juice Intel
+    lines:
+    - n-Filthy Fox
+    - Oh man, huhuh, yeah I need more of that stuff
+  - questName: Acquire Juice
+    lines:
+    - n-Filthy Fox
+    - Oh man, huhuh, yeah I need more of that stuff
 --- !u!61 &92142419
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8178,12 +8195,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Filthy Mouse
-  - I know I'm going to win next time, hehehehe
-  - oh, yessss, the power from this feels soooo good
+  - P-please, can I have some of that tasty elixir, I p-promise to repay you
   isPerson: 1
   questToMark: 
   markComplete: 0
-  questDialogues: []
+  questDialogues:
+  - questName: Speak to Moses
+    lines:
+    - n-Filthy Mouse
+    - I know I'm going to win next time, hehehehe
+    - oh, yessss, the power from this feels soooo good
+  - questName: Reconvene at Kin's
+    lines:
+    - n-Filthy Mouse
+    - I know I'm going to win next time, hehehehe
+    - oh, yessss, the power from this feels soooo good
+  - questName: Juice Intel
+    lines:
+    - n-Filthy Mouse
+    - I know I'm going to win next time, hehehehe
+    - oh, yessss, the power from this feels soooo good
+  - questName: Acquire Juice
+    lines:
+    - n-Filthy Mouse
+    - I know I'm going to win next time, hehehehe
+    - oh, yessss, the power from this feels soooo good
 --- !u!61 &428352828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58592,7 +58628,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.size
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].questName
+      value: Give Juice to Moses
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[1].questName
@@ -58612,7 +58652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size
-      value: 20
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.size
@@ -58625,6 +58665,15 @@ PrefabInstance:
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[3].lines.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
+      value: Well, uh, I guess that was one way to do it. We got the juice now, so
+        we can use it to bribe Moses
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[0]
@@ -59048,11 +59097,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].questName
-      value: Meet Kin
+      value: Give Juice to Moses
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].questName
@@ -59088,7 +59137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
-      value: Quickly, we must speak to Kin.
+      value: We've acquired his nourishment. He should now heed our request.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[2]

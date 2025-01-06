@@ -18369,7 +18369,8 @@ Transform:
   m_LocalPosition: {x: 0.24, y: 5.13, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1299242764}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &689356210
@@ -18404,7 +18405,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.5327368, y: -1.0236049}
+  m_Offset: {x: -0.25671148, y: -1.0236049}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -18415,7 +18416,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 13.861452, y: 15.359714}
+  m_Size: {x: 12.282556, y: 15.359714}
   m_EdgeRadius: 0
 --- !u!61 &689356211
 BoxCollider2D:
@@ -18504,6 +18505,48 @@ MonoBehaviour:
     lines:
     - n-Moses
     - I said get lost, if you know what's good for you!
+  - questName: Acquire Juice
+    lines:
+    - n-Moses
+    - I said get lost, if you know what's good for you!
+  - questName: Give Juice to Moses
+    lines:
+    - n-Moses
+    - Hic..what's that you got there
+    - n-Mofus
+    - Your favorite treat. *Cough* filthy *cough*.
+    - n-Jin
+    - Stop! Don't antagonize him again
+    - n-Bear
+    - We just heard you might be interested in some of this elixir
+    - n-Moses
+    - What makes you say that...hic? (Smacks lips)
+    - n-Mofus
+    - Enough with this, lets just take care -
+    - n-Jin
+    - Hold up, maybe we'll just use this ourselves, I hear it can boost our stats
+      by a lot
+    - n-Mofus
+    - Kin, no, what are you saying -
+    - n-Bear
+    - Ah, yeah I got you, we'd become way stronger, we won't even need these trials
+      to train ourselves anymore
+    - n-Moses
+    - No uh, wait, why would you do that? No, let's just say you do give it to me,
+      maybe I'll give you a spot, just this once (gulp)
+    - n-Kin
+    - (gotem)
+    - n-Mofus
+    - Ah, yes, Kin-san, I'm sorry I doubted you
+    - n-Bear
+    - Alright, deal
+    - n-A1gKn
+    - (The Juice is shared with Moses)
+    - n-Moses
+    - (glug, glug) Ohhh, yesss, I can feel it now, soo gooood.
+    - Grgrgahhhh, you swine, you may have gotten your way for now, but heed my warning,
+      you'll regert this later.
+    - You may all begin, I've enabled the combat trials...now, experience pain...
 --- !u!1001 &693766037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18770,6 +18813,64 @@ MonoBehaviour:
     lines:
     - n-Count Frogsby
     - Begone vermin, this is not a game for lowly individuals such as yourself.
+  - questName: Acquire Juice
+    lines:
+    - n-Count Frogsby
+    - Begone vermin, this is not a game for lowly individuals such as yourself.
+  - questName: Give Juice to Moses
+    lines:
+    - n-Count Frogsby
+    - Bahaha, the idiot lord has been ruined - but of course, you'll all still die
+      anyway.
+--- !u!1 &925695576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925695578}
+  - component: {fileID: 925695577}
+  m_Layer: 0
+  m_Name: JuiceAcquiredActivation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &925695577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925695576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9268673ffba4140b8b5e6a9e6eee54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 1299242763}
+  partyMemberIndexToActivate: 0
+  questToCheck: Acquire Juice
+  activeIfComplete: 1
+  deactivateActivatorObjectAfter: 0
+--- !u!4 &925695578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925695576}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.40932342, y: 1.6186899, z: -9.938547}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1017867810
 GameObject:
   m_ObjectHideFlags: 0
@@ -20286,7 +20387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[0].questName
@@ -20301,6 +20402,14 @@ PrefabInstance:
       value: Juice Intel
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].questName
+      value: Acquire Juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[4].questName
+      value: Give Juice to Moses
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -20311,6 +20420,14 @@ PrefabInstance:
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[2].lines.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[1]
@@ -20427,6 +20544,48 @@ PrefabInstance:
       value: Sure
       objectReference: {fileID: 0}
     - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[1]
+      value: Well, we still don't have the elixir, so he's not going to let us use
+        the device. Let's keep searching.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[2]
+      value: I know it took a bit longer, but we finally almost made it
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[3]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[4]
+      value: Yeah, it's fine, I'll talk to him
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[0]
+      value: n-Jin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[1]
+      value: So if we give the juice to Moses, I think he'll let us participate in
+        the combat trials
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[2]
+      value: I know it took a bit longer, but we finally almost made it
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[3]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[4]
+      value: Yeah, it's fine, I'll talk to him
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835006652672950399, guid: dca60725301d74f2988db61f26cedca3, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[10]
       value: Sigh, ok, let's not get into this now, we just need to hurry up and
         talk to Moses
@@ -20449,6 +20608,100 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dca60725301d74f2988db61f26cedca3, type: 3}
+--- !u!1 &1299242763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1299242764}
+  - component: {fileID: 1299242765}
+  - component: {fileID: 1299242766}
+  m_Layer: 0
+  m_Name: CombatTrialActivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1299242764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299242763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 689356209}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1299242765
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299242763}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.21530437, y: -1.1482916}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.052277, y: 15.640673}
+  m_EdgeRadius: 0
+--- !u!114 &1299242766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299242763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c8d631a9b3749c2ad2027663f5355a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questToMark: Give Juice to Moses
+  markComplete: 1
+  markOnEnter: 0
+  deactivateOnMarking: 0
 --- !u!1 &1306655203
 GameObject:
   m_ObjectHideFlags: 0
@@ -56136,6 +56389,14 @@ MonoBehaviour:
     lines:
     - Combat Trial Machine
     - (Does not respond)
+  - questName: Acquire Juice
+    lines:
+    - Combat Trial Machine
+    - (Does not respond)
+  - questName: Give Juice to Moses
+    lines:
+    - Combat Trial Machine
+    - (Does not respond)
 --- !u!61 &1538388863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56283,7 +56544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].questName
@@ -56298,6 +56559,14 @@ PrefabInstance:
       value: Juice Intel
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].questName
+      value: Acquire Juice
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].questName
+      value: Give Juice to Moses
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.size
       value: 8
       objectReference: {fileID: 0}
@@ -56308,6 +56577,14 @@ PrefabInstance:
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[2].lines.Array.size
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.size
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[0].lines.Array.data[0]
@@ -56423,6 +56700,90 @@ PrefabInstance:
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[2].lines.Array.data[9]
       value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[1]
+      value: He needs his nourshiment. His sweet and delicious.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[2]
+      value: We just have to find it and feed it to him. Once that's done, Bear,
+        please, just make sure you're ready.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[3]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[4]
+      value: I'll be ready.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[5]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[6]
+      value: Good. I trust you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[7]
+      value: I think the two rich guys probably stacked the odds against, but we
+        should be able to win
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[8]
+      value: n_Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[3].lines.Array.data[9]
+      value: No. It's not that. I guess you'll just have to bear witness.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[0]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[1]
+      value: The moment draws nigh. We must proceed with the trials.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[2]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[3]
+      value: Yes
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[4]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[5]
+      value: But Bear, be careful, after the incident at the tavern, you should understand
+        what's coming.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[6]
+      value: n-Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[7]
+      value: I think the two rich guys probably stacked the odds against us, but
+        we should be able to win
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[8]
+      value: n-Mofus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
+      propertyPath: questDialogues.Array.data[4].lines.Array.data[9]
+      value: No. It's not that. I guess you'll just have to bear witness.
       objectReference: {fileID: 0}
     - target: {fileID: 9041301538868501512, guid: 3190ea574302b48cfb60fc25888f525e, type: 3}
       propertyPath: questDialogues.Array.data[1].lines.Array.data[10]
@@ -65896,6 +66257,19 @@ MonoBehaviour:
     - n-Lord Jaguardish
     - Hah, precisely, you fools have no chance to participate, you are but meager
       serfs within our dominion.
+  - questName: Acquire Juice
+    lines:
+    - n-Lord Jaguardish
+    - Hah, precisely, you fools have no chance to participate, you are but meager
+      serfs within our dominion.
+  - questName: Give Juice to Moses
+    lines:
+    - n-Lord Jaguardish
+    - Rahhhh, that blasted tavern owner, he really cost me
+    - n-Bear
+    - Costed you what?
+    - n-Lord Jaguardish
+    - Never you mind knave, forget what you heard
 --- !u!61 &2136632873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66003,3 +66377,4 @@ SceneRoots:
   - {fileID: 1170567402}
   - {fileID: 1718291063}
   - {fileID: 1538388861}
+  - {fileID: 925695578}
