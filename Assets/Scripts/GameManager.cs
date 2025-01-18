@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public CharStats[] playerStats;
 
-    public bool gameMenuOpen, dialogueActive, fadingBetweenAreas, shopActive, battleActive;
+    public bool gameMenuOpen, dialogueActive, fadingBetweenAreas, shopActive, battleActive, combatTrialMenuActive;
 
     public string[] itemsHeld;
     public string[] keyItems;
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (gameMenuOpen || dialogueActive || fadingBetweenAreas || shopActive || battleActive) {
+        if (gameMenuOpen || dialogueActive || fadingBetweenAreas || shopActive || battleActive || combatTrialMenuActive) {
             PlayerController.instance.canMove = false;
         } else {
             PlayerController.instance.canMove = true;

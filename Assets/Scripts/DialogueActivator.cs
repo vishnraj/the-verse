@@ -22,7 +22,7 @@ public class DialogueActivator : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (GameManager.instance.gameMenuOpen || GameManager.instance.battleActive) {
+        if (GameManager.instance.gameMenuOpen || GameManager.instance.battleActive || GameManager.instance.combatTrialMenuActive) {
             return;
         }
 
