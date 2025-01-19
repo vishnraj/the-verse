@@ -3567,9 +3567,10 @@ MonoBehaviour:
     - Marauder Bear
     - Badger Thug
     - Badger Bruiser
-    rewardXP: 0
-    rewardItems: []
-    rewardGold: 0
+    rewardXP: 200
+    rewardItems:
+    - Health Potion
+    rewardGold: 10
     battleName: The Marauders
   trialButtons:
   - {fileID: 3326258875527205587}

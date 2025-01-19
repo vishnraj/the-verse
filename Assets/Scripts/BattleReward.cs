@@ -72,7 +72,7 @@ public class BattleReward : MonoBehaviour {
             QuestManager.instance.MarkQuestComplete(questToMark);
         }
 
-        if (BattleManager.instance.inCombatTrials) {
+        if (CombatTrialMenuManager.instance != null && CombatTrialMenuManager.instance.inCombatTrials) {
             CombatTrialMenuManager.instance.OpenCombatTrialMenu();
         }
     }

@@ -12,6 +12,8 @@ public class CombatTrialMenuManager : MonoBehaviour {
 
     private bool canActivate;
 
+    public bool inCombatTrials;
+
     // Start is called before the first frame update
     void Start() {
         if (instance == null) {
@@ -30,8 +32,10 @@ public class CombatTrialMenuManager : MonoBehaviour {
         }
 
         if (canActivate && (Input.GetButtonDown("Fire1") || Input.GetKeyUp(KeyCode.Space)) && !combatTrialMenu.activeInHierarchy) {
+            inCombatTrials = true;
             OpenCombatTrialMenu();
         } else if (canActivate && Input.GetKeyUp(KeyCode.Space) && combatTrialMenu.activeInHierarchy) {
+            inCombatTrials = false;
             CloseCombatTrialMenu();
         }
     }
@@ -69,9 +73,27 @@ public class CombatTrialMenuManager : MonoBehaviour {
     public void StartTrial(int trialIndex) {
         if (trialIndex < combatTrials.Count) {
             BattleTypes selectedTrial = combatTrials[trialIndex];
-            BattleManager.instance.BattleStart(selectedTrial.enemies, true);
+
+            StartCoroutine(StartTrialBattle(selectedTrial));
         } else {
             Debug.LogError("Invalid trial index: " + trialIndex);
         }
     }
+
+    public IEnumerator StartTrialBattle(BattleTypes selectedTrial) {
+        UIFade.instance.FadeToBlack();
+        GameManager.instance.battleActive = true;
+
+        BattleManager.instance.rewardItems = selectedTrial.rewardItems;
+        BattleManager.instance.rewardXP = selectedTrial.rewardXP;
+        BattleManager.instance.rewardGold = selectedTrial.rewardGold;
+
+        CloseCombatTrialMenu();
+
+        yield return new WaitForSeconds(1.5f);
+
+        BattleManager.instance.BattleStart(selectedTrial.enemies, true);
+        UIFade.instance.FadeFromBlack();
+    }
+
 }

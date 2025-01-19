@@ -60,8 +60,6 @@ public class BattleManager : MonoBehaviour {
 
     public bool cannotFlee;
 
-    public bool inCombatTrials;
-
     // Start is called before the first frame update
     void Start() {
         if (instance == null) {
@@ -109,13 +107,6 @@ public class BattleManager : MonoBehaviour {
     public void BattleStart(string[] enemiesToSpawn, bool setCannotFlee){
         if (battleActive) {
             return;
-        }
-
-        if (CombatTrialMenuManager.instance != null && CombatTrialMenuManager.instance.gameObject.activeInHierarchy) {
-            inCombatTrials = true;
-            CombatTrialMenuManager.instance.CloseCombatTrialMenu();
-        } else {
-            inCombatTrials = false;
         }
 
         cannotFlee = setCannotFlee;
