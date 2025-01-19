@@ -20,7 +20,23 @@ public class QuestManager : MonoBehaviour {
 
         DontDestroyOnLoad(gameObject);
 
-        questMarkersComplete = new bool[questMarkerNames.Length];
+        if (questMarkersComplete.Length == 0) {
+            questMarkersComplete = new bool[questMarkerNames.Length];
+        } else {
+            // if we have added to the completed quests in the editor
+            // we are testing something so, leave those quests as they are
+            // and fill in the rest with false if needed
+            bool[] updatedQuestMarkersComplete = new bool[questMarkerNames.Length];
+            for (int i = 0; i < questMarkerNames.Length; i++) {
+                if (i < questMarkersComplete.Length && questMarkersComplete[i]) {
+                    updatedQuestMarkersComplete[i] = true;
+                    MarkQuestComplete(questMarkerNames[i]);
+                } else {
+                    updatedQuestMarkersComplete[i] = false;
+                }
+            }
+            questMarkersComplete = updatedQuestMarkersComplete;
+        }
     }
 
     // Update is called once per frame

@@ -1792,10 +1792,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3585,6 +3585,7 @@ MonoBehaviour:
   - {fileID: 4944350664139152710}
   - {fileID: 6009728501184411679}
   - {fileID: 2514566595999194138}
+  inCombatTrials: 0
 --- !u!1 &8753459362533973645
 GameObject:
   m_ObjectHideFlags: 0
