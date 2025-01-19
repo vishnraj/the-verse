@@ -27,16 +27,14 @@ public class CombatTrialMenuManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (GameManager.instance.gameMenuOpen || GameManager.instance.dialogueActive || GameManager.instance.battleActive) {
+        if (GameManager.instance.gameMenuOpen || GameManager.instance.dialogueActive || GameManager.instance.battleActive || GameManager.instance.shopActive) {
             return;
         }
 
         if (canActivate && (Input.GetButtonDown("Fire1") || Input.GetKeyUp(KeyCode.Space)) && !combatTrialMenu.activeInHierarchy) {
-            inCombatTrials = true;
-            OpenCombatTrialMenu();
+            StartCombatTrials();
         } else if (canActivate && Input.GetKeyUp(KeyCode.Space) && combatTrialMenu.activeInHierarchy) {
-            inCombatTrials = false;
-            CloseCombatTrialMenu();
+            LeaveCombatTrials();
         }
     }
 
@@ -70,6 +68,12 @@ public class CombatTrialMenuManager : MonoBehaviour {
         }
     }
 
+    void OnTriggerExit2D(Collider2D other) {
+        if (other.tag == "Player") {
+            canActivate = false;
+        }
+    }
+
     public void StartTrial(int trialIndex) {
         if (trialIndex < combatTrials.Count) {
             BattleTypes selectedTrial = combatTrials[trialIndex];
@@ -96,4 +100,13 @@ public class CombatTrialMenuManager : MonoBehaviour {
         UIFade.instance.FadeFromBlack();
     }
 
+    public void StartCombatTrials() {
+        inCombatTrials = true;
+        OpenCombatTrialMenu();
+    }
+
+    public void LeaveCombatTrials() {
+        inCombatTrials = false;
+        CloseCombatTrialMenu();
+    }
 }

@@ -2707,8 +2707,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6474223758901322974}
-        m_TargetAssemblyTypeName: CombatTrialMenu, Assembly-CSharp
-        m_MethodName: CloseCombatTrialMenu
+        m_TargetAssemblyTypeName: CombatTrialMenuManager, Assembly-CSharp
+        m_MethodName: LeaveCombatTrials
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
