@@ -8,4 +8,5 @@ public class BattleTypes {
     public int rewardXP;
     public string[] rewardItems;
     public int rewardGold;
+    public string battleName; // optional name for a battle to track it
 }
