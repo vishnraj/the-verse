@@ -71,5 +71,9 @@ public class BattleReward : MonoBehaviour {
         if (markQuestComplete) {
             QuestManager.instance.MarkQuestComplete(questToMark);
         }
+
+        if (BattleManager.instance.inCombatTrials) {
+            CombatTrialMenuManager.instance.OpenCombatTrialMenu();
+        }
     }
 }

@@ -3564,9 +3564,9 @@ MonoBehaviour:
   combatTrialMenu: {fileID: 6105058265494301423}
   combatTrials:
   - enemies:
-    - MarauderBear
-    - BadgerBruiser
-    - BadgerThug
+    - Marauder Bear
+    - Badger Thug
+    - Badger Bruiser
     rewardXP: 0
     rewardItems: []
     rewardGold: 0

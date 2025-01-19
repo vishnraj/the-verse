@@ -18,6 +18,6 @@ public class CombatTrialButton : MonoBehaviour {
     }
 
     public void Press() {
-
+        CombatTrialMenuManager.instance.StartTrial(buttonValue);
     }
 }

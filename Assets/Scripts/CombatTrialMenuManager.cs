@@ -25,7 +25,7 @@ public class CombatTrialMenuManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (GameManager.instance.gameMenuOpen || GameManager.instance.dialogueActive) {
+        if (GameManager.instance.gameMenuOpen || GameManager.instance.dialogueActive || GameManager.instance.battleActive) {
             return;
         }
 
@@ -52,6 +52,7 @@ public class CombatTrialMenuManager : MonoBehaviour {
         for (int i = 0; i < trialButtons.Length; ++i) {
             if (i < combatTrials.Count) {
                 trialButtons[i].gameObject.SetActive(true);
+                trialButtons[i].buttonValue = i;
                 trialButtons[i].buttonText.text = combatTrials[i].battleName;
             } else {
                 trialButtons[i].gameObject.SetActive(false);
@@ -62,6 +63,15 @@ public class CombatTrialMenuManager : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Player") {
             canActivate = true;
+        }
+    }
+
+    public void StartTrial(int trialIndex) {
+        if (trialIndex < combatTrials.Count) {
+            BattleTypes selectedTrial = combatTrials[trialIndex];
+            BattleManager.instance.BattleStart(selectedTrial.enemies, true);
+        } else {
+            Debug.LogError("Invalid trial index: " + trialIndex);
         }
     }
 }
