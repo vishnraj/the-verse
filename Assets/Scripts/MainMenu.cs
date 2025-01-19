@@ -10,6 +10,8 @@ public class MainMenu : MonoBehaviour {
 
     public string loadGameScene;
 
+    public string combatTestScene;
+
     // Start is called before the first frame update
     void Start() {
         if (PlayerPrefs.HasKey("Current_Scene")) {
@@ -43,5 +45,9 @@ public class MainMenu : MonoBehaviour {
 
     public void Exit() {
         Application.Quit();
+    }
+
+    public void CombatArenaTester() {
+        SceneManager.LoadScene(combatTestScene);
     }
 }
