@@ -2,7 +2,8 @@ name: Build and deploy
 
 on:
   pull_request:
-    types: [opened, reopened]
+    branches:
+      - main
 
 env:
   PROJECT_NAME: the-verse
